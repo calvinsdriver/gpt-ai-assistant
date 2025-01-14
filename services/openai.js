@@ -61,9 +61,7 @@ const createChatCompletion = ({
     frequency_penalty: frequencyPenalty,
     presence_penalty: presencePenalty,
   };
-  const result = client.post('/v1/chat/completions', body)
-  console.log('createChatCompletion', result);
-  return result;
+  return client.post('/v1/chat/completions', body);
 };
 
 const createImage = ({
