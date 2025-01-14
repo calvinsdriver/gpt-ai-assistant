@@ -31,6 +31,7 @@ const generateCompletion = async ({
   if (config.APP_ENV !== 'production') return new Completion({ text: MOCK_TEXT_OK });
   const { data } = await createChatCompletion({ messages: prompt.messages });
   const [choice] = data.choices;
+  console.log('data.choices:', choice.message);
   if (choice.message.function_call != null) {
     console.log('Function call:', choice.message.function_call);
   }
