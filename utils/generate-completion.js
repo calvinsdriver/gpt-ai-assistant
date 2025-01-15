@@ -33,8 +33,11 @@ const generateCompletion = async ({
   const { data } = await createChatCompletion({ messages: prompt.messages });
   const [choice] = data.choices;
   let answer = choice.message.content.trim();
+  console.log(`Generated completion: ${answer}`);
   if (answer === 'Please upload your renewal policy quote and your current policy quote.') {
+    console.log('Fetching difference');
     answer = await fetchDifference();
+    console.log(`Generated difference: ${answer}`);
   }
   return new Completion({
     text: answer,
