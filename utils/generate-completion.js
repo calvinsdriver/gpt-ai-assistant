@@ -1,7 +1,7 @@
 import config from '../config/index.js';
 import { MOCK_TEXT_OK } from '../constants/mock.js';
 import { createChatCompletion, FINISH_REASON_STOP } from '../services/openai.js';
-import { fetchDifference } from './fetch-difference.cjs';
+import { fetchDifference } from './fetch-difference.js';
 
 class Completion {
   text;
