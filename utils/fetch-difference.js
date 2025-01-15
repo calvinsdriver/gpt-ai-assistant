@@ -18,17 +18,17 @@ const fetchDifference = async() => {
   console.log("This is the assistant object: ", myAssistant, "\n");
 
   // Step 1: Upload a File with an "assistants" purpose
-  fs.readdirSync('./').forEach(file => {
+  fs.readdirSync('./utils').forEach(file => {
     console.log(file);
   });
   const myFile = await openai.files.create({
-    file: fs.createReadStream("./request_0000014524.json"),
+    file: fs.createReadStream("./utils/request_0000014524.json"),
     purpose: "assistants",
   });
   console.log("This is the file object: ", myFile, "\n");
 
   const myFile2 = await openai.files.create({
-    file: fs.createReadStream("./request_0000014524 copy.json"),
+    file: fs.createReadStream("./utils/request_0000014524 copy.json"),
     purpose: "assistants",
   });
   console.log("This is the file object: ", myFile2, "\n");
