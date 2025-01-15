@@ -114,6 +114,6 @@ const fetchDifference = async() => {
     return result;
   };
   return await retrieveRun();
-}
+};
 
 export default fetchDifference;
