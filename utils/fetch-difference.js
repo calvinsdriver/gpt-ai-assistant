@@ -1,10 +1,10 @@
 import config from "../config/index.js";
-import { Configuration, OpenAIApi } from "openai";
+import OpenAI from "openai";
 import * as fs from "fs";
 
-const openai = new OpenAIApi(new Configuration({
+const openai = new OpenAI({
   apiKey: config.OPENAI_API_KEY,
-}));
+});
 
 const fetchDifference = async() => {
   // Step 2: Create an Assistant
