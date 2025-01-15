@@ -75,11 +75,12 @@ const fetchDifference = async() => {
   console.log("This is the run object: ", myRun, "\n");
 
   // Step 6: Periodically retrieve the Run to check on its status to see if it has moved to completed
-  const retrieveRun = async () => {
+  const retrieveRun = async (thread_id) => {
     let keepRetrievingRun;
     let result;
 
     console.log("Run ID: ", myRun.id);
+    console.log("Thread ID: ", myThread.id);
     while (myRun.status === "queued" || myRun.status === "in_progress") {
       keepRetrievingRun = await openai.beta.threads.runs.retrieve({
         id: myRun.id,
@@ -90,7 +91,7 @@ const fetchDifference = async() => {
         console.log("\n");
 
         // Step 7: Retrieve the Messages added by the Assistant to the Thread
-        const allMessages = await openai.beta.threads.messages.list(myThread.id);
+        const allMessages = await openai.beta.threads.messages.list(thread_id);
 
         console.log(
           "------------------------------------------------------------ \n"
@@ -114,7 +115,7 @@ const fetchDifference = async() => {
     }
     return result;
   };
-  return await retrieveRun();
+  return await retrieveRun(myThread.id);
 };
 
 export default fetchDifference;
