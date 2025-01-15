@@ -1,9 +1,10 @@
-const config = require("../config/index.js");
-const OpenAI = require("openai");
+import config from "../config/index.js";
+import OpenAI from "openai";
+import * as fs from "fs";
+
 const openai = new OpenAI({
   apiKey: config.OPENAI_API_KEY,
 });
-const fs = require("fs");
 
 const fetchDifference = async() => {
   // Step 2: Create an Assistant
