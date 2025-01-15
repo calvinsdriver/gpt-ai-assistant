@@ -39,8 +39,8 @@ const fetchDifference = async() => {
 
   // Step 4: Add a Message to a Thread
   const myThreadMessage = await openai.beta.threads.messages.create(
-    myThread.id,
     {
+      thread_id: myThread.id,
       role: "user",
       content: "Compare Driver's Name, Voilation Number, Accident Number, Number of Claims between submission quote and renewal quotes.",
       attachments: [
@@ -66,8 +66,8 @@ const fetchDifference = async() => {
 
   // Step 5: Run the Assistant
   const myRun = await openai.beta.threads.runs.create(
-    myThread.id,
     {
+      thread_id: myThread.id,
       assistant_id: myAssistant.id,
       instructions: "Please address the user as Future Insurance.",
     }
@@ -79,13 +79,11 @@ const fetchDifference = async() => {
     let keepRetrievingRun;
     let result;
 
-    console.log("Thread ID: ", myThread.id);
     console.log("Run ID: ", myRun.id);
     while (myRun.status === "queued" || myRun.status === "in_progress") {
-      keepRetrievingRun = await openai.beta.threads.runs.retrieve(
-        myThread.id,
-        myRun.id
-      );
+      keepRetrievingRun = await openai.beta.threads.runs.retrieve({
+        id: myRun.id,
+    });
       console.log(`Run status: ${keepRetrievingRun.status}`);
 
       if (keepRetrievingRun.status === "completed") {
