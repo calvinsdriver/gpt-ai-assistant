@@ -1,6 +1,7 @@
 import config from "../config/index.js";
 import OpenAI from "openai";
-import * as fs from "fs";
+import fs from 'fs';
+import path from 'path';
 
 const openai = new OpenAI({
   apiKey: config.OPENAI_API_KEY,
@@ -18,17 +19,16 @@ const fetchDifference = async() => {
   console.log("This is the assistant object: ", myAssistant, "\n");
 
   // Step 1: Upload a File with an "assistants" purpose
-  fs.readdirSync('./utils').forEach(file => {
-    console.log(file);
-  });
+  let usersPath = path.join(process.cwd(), 'request_0000014524.json');
   const myFile = await openai.files.create({
-    file: fs.createReadStream("./utils/request_0000014524.json"),
+    file: fs.createReadStream(usersPath),
     purpose: "assistants",
   });
   console.log("This is the file object: ", myFile, "\n");
 
+  usersPath = path.join(process.cwd(), 'request_0000014524 copy.json');
   const myFile2 = await openai.files.create({
-    file: fs.createReadStream("./utils/request_0000014524 copy.json"),
+    file: fs.createReadStream(usersPath),
     purpose: "assistants",
   });
   console.log("This is the file object: ", myFile2, "\n");
