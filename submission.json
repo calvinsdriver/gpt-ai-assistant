@@ -1,1489 +1,1503 @@
 {
-  "id": "f4ccffcd-a0a8-492c-9635-633b72f09807",
-  "type": "SYSTEM",
-  "error": null,
-  "level": "DEBUG",
-  "inputs": {},
-  "groupId": "1736448094906391339",
-  "message": "Executing RATE_PLAN separateplan version 1",
-  "outputs": {
-    "result": {
-      "value": {
-        "UALPersonalAutoLine": [
-          {
-            "id": "entity.APDRiskCoverage:117",
-            "basis": 200,
-            "refId": null,
-            "lineId": "entity.APDRiskPolicyLine:109",
-            "message": null,
-            "raterId": null,
-            "baseRate": 1,
-            "costCode": "premium",
-            "costType": "StdPremium",
-            "required": true,
-            "billGroup": null,
-            "periodEnd": "2026-01-09T08:01Z",
-            "exposureId": null,
-            "termAmount": 200,
-            "chargeGroup": null,
-            "overridable": false,
-            "periodStart": "2025-01-09T08:01Z",
-            "rateRoutine": null,
-            "actualAmount": 200,
-            "adjustedRate": 1,
-            "customFields": {},
-            "roundingMode": "HALF_EVEN",
-            "basisScalable": false,
-            "chargePattern": null,
-            "effectiveDate": "2025-01-09T08:01Z",
-            "roundingLevel": 10,
-            "costEntityType": null,
-            "expirationDate": "2026-01-09T08:01Z",
-            "overrideAmount": null,
-            "overrideReason": null,
-            "overrideSource": null,
-            "rateAmountType": null,
-            "standardAmount": null,
-            "overrideAdjRate": null,
-            "prorationMethod": "ProRataByDays",
-            "standardAdjRate": null,
-            "overrideBaseRate": null,
-            "standardBaseRate": null,
-            "editEffectiveDate": "2025-01-09T08:01Z",
-            "termAmountBilling": null,
-            "numDaysInRatedTerm": 365,
-            "overrideTermAmount": null,
-            "ratingJurisdiction": "CA",
-            "standardTermAmount": null,
-            "subjectToReporting": null,
-            "actualAmountBilling": null,
-            "overrideAmountBilling": null,
-            "standardAmountBilling": null,
-            "overrideTermAmountBilling": null,
-            "standardTermAmountBilling": null
-          },
-          {
-            "id": "entity.APDRiskCoverage:118",
-            "basis": 1,
-            "refId": null,
-            "lineId": "entity.APDRiskPolicyLine:109",
-            "message": null,
-            "raterId": null,
-            "baseRate": 1,
-            "costCode": "premium",
-            "costType": "StdPremium",
-            "required": true,
-            "billGroup": null,
-            "periodEnd": "2026-01-09T08:01Z",
-            "exposureId": null,
-            "termAmount": 1,
-            "chargeGroup": null,
-            "overridable": false,
-            "periodStart": "2025-01-09T08:01Z",
-            "rateRoutine": null,
-            "actualAmount": 1,
-            "adjustedRate": 1,
-            "customFields": {},
-            "roundingMode": "HALF_EVEN",
-            "basisScalable": false,
-            "chargePattern": null,
-            "effectiveDate": "2025-01-09T08:01Z",
-            "roundingLevel": 10,
-            "costEntityType": null,
-            "expirationDate": "2026-01-09T08:01Z",
-            "overrideAmount": null,
-            "overrideReason": null,
-            "overrideSource": null,
-            "rateAmountType": null,
-            "standardAmount": null,
-            "overrideAdjRate": null,
-            "prorationMethod": "ProRataByDays",
-            "standardAdjRate": null,
-            "overrideBaseRate": null,
-            "standardBaseRate": null,
-            "editEffectiveDate": "2025-01-09T08:01Z",
-            "termAmountBilling": null,
-            "numDaysInRatedTerm": 365,
-            "overrideTermAmount": null,
-            "ratingJurisdiction": "CA",
-            "standardTermAmount": null,
-            "subjectToReporting": null,
-            "actualAmountBilling": null,
-            "overrideAmountBilling": null,
-            "standardAmountBilling": null,
-            "overrideTermAmountBilling": null,
-            "standardTermAmountBilling": null
-          },
-          {
-            "id": "entity.APDRiskCoverage:115",
-            "basis": 1,
-            "refId": null,
-            "lineId": "entity.APDRiskPolicyLine:109",
-            "message": null,
-            "raterId": null,
-            "baseRate": 1,
-            "costCode": "premium",
-            "costType": "StdPremium",
-            "required": true,
-            "billGroup": null,
-            "periodEnd": "2026-01-09T08:01Z",
-            "exposureId": null,
-            "termAmount": 1,
-            "chargeGroup": null,
-            "overridable": false,
-            "periodStart": "2025-01-09T08:01Z",
-            "rateRoutine": null,
-            "actualAmount": 1,
-            "adjustedRate": 1,
-            "customFields": {},
-            "roundingMode": "HALF_EVEN",
-            "basisScalable": false,
-            "chargePattern": null,
-            "effectiveDate": "2025-01-09T08:01Z",
-            "roundingLevel": 10,
-            "costEntityType": null,
-            "expirationDate": "2026-01-09T08:01Z",
-            "overrideAmount": null,
-            "overrideReason": null,
-            "overrideSource": null,
-            "rateAmountType": null,
-            "standardAmount": null,
-            "overrideAdjRate": null,
-            "prorationMethod": "ProRataByDays",
-            "standardAdjRate": null,
-            "overrideBaseRate": null,
-            "standardBaseRate": null,
-            "editEffectiveDate": "2025-01-09T08:01Z",
-            "termAmountBilling": null,
-            "numDaysInRatedTerm": 365,
-            "overrideTermAmount": null,
-            "ratingJurisdiction": "CA",
-            "standardTermAmount": null,
-            "subjectToReporting": null,
-            "actualAmountBilling": null,
-            "overrideAmountBilling": null,
-            "standardAmountBilling": null,
-            "overrideTermAmountBilling": null,
-            "standardTermAmountBilling": null
-          },
-          {
-            "id": "entity.APDRiskCoverage:116",
-            "basis": 1,
-            "refId": null,
-            "lineId": "entity.APDRiskPolicyLine:109",
-            "message": null,
-            "raterId": null,
-            "baseRate": 1,
-            "costCode": "premium",
-            "costType": "StdPremium",
-            "required": true,
-            "billGroup": null,
-            "periodEnd": "2026-01-09T08:01Z",
-            "exposureId": null,
-            "termAmount": 1,
-            "chargeGroup": null,
-            "overridable": false,
-            "periodStart": "2025-01-09T08:01Z",
-            "rateRoutine": null,
-            "actualAmount": 1,
-            "adjustedRate": 1,
-            "customFields": {},
-            "roundingMode": "HALF_EVEN",
-            "basisScalable": false,
-            "chargePattern": null,
-            "effectiveDate": "2025-01-09T08:01Z",
-            "roundingLevel": 10,
-            "costEntityType": null,
-            "expirationDate": "2026-01-09T08:01Z",
-            "overrideAmount": null,
-            "overrideReason": null,
-            "overrideSource": null,
-            "rateAmountType": null,
-            "standardAmount": null,
-            "overrideAdjRate": null,
-            "prorationMethod": "ProRataByDays",
-            "standardAdjRate": null,
-            "overrideBaseRate": null,
-            "standardBaseRate": null,
-            "editEffectiveDate": "2025-01-09T08:01Z",
-            "termAmountBilling": null,
-            "numDaysInRatedTerm": 365,
-            "overrideTermAmount": null,
-            "ratingJurisdiction": "CA",
-            "standardTermAmount": null,
-            "subjectToReporting": null,
-            "actualAmountBilling": null,
-            "overrideAmountBilling": null,
-            "standardAmountBilling": null,
-            "overrideTermAmountBilling": null,
-            "standardTermAmountBilling": null
-          }
-        ]
-      }
-    }
-  },
-  "callerId": null,
-  "audiences": [
-    "INTERNAL"
-  ],
-  "selectors": {
-    "jurisdictions": "CA",
-    "transactionDate": "2025-01-09T08:01:00.000Z"
-  },
-  "timestamp": "2025-01-09T18:41:35.081735606Z",
-  "contextMap": null,
-  "componentCode": "separateplan",
-  "componentType": "rateplan",
-  "elapsedTimeNs": 139634945,
-  "componentVersion": "1",
-  "costSummary": {
-    "costs": [
-      {
-        "id": "entity.APDRiskCoverage:117",
-        "basis": 200,
-        "baseRate": 1,
-        "adjustedRate": 1,
-        "termAmount": 200,
-        "actualAmount": 200
-      },
-      {
-        "id": "entity.APDRiskCoverage:118",
-        "basis": 1,
-        "baseRate": 1,
-        "adjustedRate": 1,
-        "termAmount": 1,
-        "actualAmount": 1
-      },
-      {
-        "id": "entity.APDRiskCoverage:115",
-        "basis": 1,
-        "baseRate": 1,
-        "adjustedRate": 1,
-        "termAmount": 1,
-        "actualAmount": 1
-      },
-      {
-        "id": "entity.APDRiskCoverage:116",
-        "basis": 1,
-        "baseRate": 1,
-        "adjustedRate": 1,
-        "termAmount": 1,
-        "actualAmount": 1
-      }
-    ],
-    "actualAmountTotal": 203,
-    "termAmountTotal": 203
-  },
-  "children": [
-    {
-      "id": "6225ab2f-8725-4e3e-a97a-19e04c8a828a",
-      "type": "SYSTEM",
-      "error": null,
-      "level": "DEBUG",
-      "inputs": {},
-      "groupId": "1736448094906391339",
-      "message": "Executing RATING_VARIABLE SEPAInitialGlobalVariableRatingVariable version 1",
-      "outputs": {
-        "result": {
-          "value": null
+    "quote": {
+        "account": {
+            "accountHolder": {
+                "displayName": "Ray Newton",
+                "id": "test_pp:2",
+                "internalId": "entity.AccountContact:9",
+                "type": "AccountContact",
+                "uri": "/account/v1/accounts/pc:SqBDPCOT-grxjKKJUO8bV/contacts/test_pp:2"
+            },
+            "accountNumber": "C000143542",
+            "accountStatus": {
+                "code": "Active",
+                "name": "Active"
+            },
+            "businessOperationsDescription": "business description",
+            "contacts": [
+                {
+                    "accountContactRoles": [
+                        {
+                            "code": "NamedInsured",
+                            "name": "NamedInsured"
+                        }
+                    ],
+                    "active": true,
+                    "addressBookUID": "pcext:S-I3OjBDvIw_Y46wePOIr",
+                    "addresses": [
+                        {
+                            "CEDEX": "11",
+                            "addressBookUID": "pcext:S3Cr63kDx5JhQyw9gl_lr",
+                            "addressLine1": "0264 Bridgepointe Parkway",
+                            "addressLine2": "Floor 0264",
+                            "addressLine3": "Developer Unit Habitation Cube #0264",
+                            "addressType": {
+                                "code": "home",
+                                "name": "Home"
+                            },
+                            "city": "San Mateo",
+                            "country": "US",
+                            "county": "San Mateo",
+                            "description": "Created by the Address Builder with code 264",
+                            "displayName": "0264 Bridgepointe Parkway, Floor 0264, Developer Unit Habitation Cube #0264, San Mateo, CA 94404-0264",
+                            "id": "pc:SeU9_DyszlxnuOZQrE2hI",
+                            "internalId": "pc:SeU9_DyszlxnuOZQrE2hI",
+                            "postalCode": "94404-0264",
+                            "primary": true,
+                            "state": {
+                                "code": "CA",
+                                "name": "California"
+                            }
+                        }
+                    ],
+                    "authorizationID": "S40QQtXgS_IOMFNSj1N3z",
+                    "ccPolicySystemId": "pc:SOJMKeA1jB5ZNxQ8NllY3",
+                    "companyName": "Acta Motors",
+                    "contactSubtype": "Company",
+                    "displayName": "Acta Motors",
+                    "emailAddress1": "0264@guidewire.com",
+                    "emailAddress2": "0264@hotmail.com",
+                    "externalId": "pcext:S-I3OjBDvIw_Y46wePOIr",
+                    "id": "pc:SOJMKeA1jB5ZNxQ8NllY3",
+                    "namedInsured": true,
+                    "officialIds": {},
+                    "primaryAddress": {
+                        "CEDEX": "11",
+                        "addressBookUID": "pcext:S3Cr63kDx5JhQyw9gl_lr",
+                        "addressLine1": "0264 Bridgepointe Parkway",
+                        "addressLine2": "Floor 0264",
+                        "addressLine3": "Developer Unit Habitation Cube #0264",
+                        "addressType": {
+                            "code": "home",
+                            "name": "Home"
+                        },
+                        "city": "San Mateo",
+                        "country": "US",
+                        "county": "San Mateo",
+                        "description": "Created by the Address Builder with code 264",
+                        "displayName": "0264 Bridgepointe Parkway, Floor 0264, Developer Unit Habitation Cube #0264, San Mateo, CA 94404-0264",
+                        "id": "pc:SeU9_DyszlxnuOZQrE2hI",
+                        "postalCode": "94404-0264",
+                        "state": {
+                            "code": "CA",
+                            "name": "California"
+                        }
+                    },
+                    "primaryPhoneType": {
+                        "code": "work",
+                        "name": "Work"
+                    },
+                    "taxId": "**-***0264"
+                },
+                {
+                    "accountContactRoles": [
+                        {
+                            "code": "NamedInsured",
+                            "name": "NamedInsured"
+                        }
+                    ],
+                    "active": true,
+                    "addressBookUID": "pcext:SJ_YujzUsQ6q5LjWKC5w_",
+                    "addresses": [
+                        {
+                            "CEDEX": "11",
+                            "addressBookUID": "pcext:SRR_UX0Xs5jmIrMxAHL3q",
+                            "addressLine1": "0262 Bridgepointe Parkway",
+                            "addressLine2": "Floor 0262",
+                            "addressLine3": "Developer Unit Habitation Cube #0262",
+                            "addressType": {
+                                "code": "home",
+                                "name": "Home"
+                            },
+                            "city": "San Mateo",
+                            "country": "US",
+                            "county": "San Mateo",
+                            "description": "Created by the Address Builder with code 262",
+                            "displayName": "0262 Bridgepointe Parkway, Floor 0262, Developer Unit Habitation Cube #0262, San Mateo, CA 94404-0262",
+                            "id": "pc:SY9A3q0QrQewNOkVXBViX",
+                            "internalId": "pc:SY9A3q0QrQewNOkVXBViX",
+                            "postalCode": "94404-0262",
+                            "primary": true,
+                            "state": {
+                                "code": "CA",
+                                "name": "California"
+                            }
+                        }
+                    ],
+                    "authorizationID": "SMSlTAPhaO60dL_4YLaic",
+                    "ccPolicySystemId": "pc:SsXOBO5zLv8ZgUG0aP0Ci",
+                    "companyName": "BlackBurn's Plumbing",
+                    "contactSubtype": "Company",
+                    "displayName": "BlackBurn's Plumbing",
+                    "emailAddress1": "0262@guidewire.com",
+                    "emailAddress2": "0262@hotmail.com",
+                    "externalId": "pcext:SJ_YujzUsQ6q5LjWKC5w_",
+                    "id": "pc:SsXOBO5zLv8ZgUG0aP0Ci",
+                    "namedInsured": true,
+                    "officialIds": {},
+                    "primaryAddress": {
+                        "CEDEX": "11",
+                        "addressBookUID": "pcext:SRR_UX0Xs5jmIrMxAHL3q",
+                        "addressLine1": "0262 Bridgepointe Parkway",
+                        "addressLine2": "Floor 0262",
+                        "addressLine3": "Developer Unit Habitation Cube #0262",
+                        "addressType": {
+                            "code": "home",
+                            "name": "Home"
+                        },
+                        "city": "San Mateo",
+                        "country": "US",
+                        "county": "San Mateo",
+                        "description": "Created by the Address Builder with code 262",
+                        "displayName": "0262 Bridgepointe Parkway, Floor 0262, Developer Unit Habitation Cube #0262, San Mateo, CA 94404-0262",
+                        "id": "pc:SY9A3q0QrQewNOkVXBViX",
+                        "postalCode": "94404-0262",
+                        "state": {
+                            "code": "CA",
+                            "name": "California"
+                        }
+                    },
+                    "primaryPhoneType": {
+                        "code": "work",
+                        "name": "Work"
+                    },
+                    "taxId": "**-***0262"
+                },
+                {
+                    "accountContactRoles": [
+                        {
+                            "code": "NamedInsured",
+                            "name": "NamedInsured"
+                        }
+                    ],
+                    "active": true,
+                    "addressBookUID": "pcext:S3LTiP8heZYqxz51CidZ-",
+                    "addresses": [
+                        {
+                            "CEDEX": "11",
+                            "addressBookUID": "pcext:SQ7aGeiJ6Xfma5ZG_jjcZ",
+                            "addressLine1": "0042 Bridgepointe Parkway",
+                            "addressLine2": "Floor 0042",
+                            "addressLine3": "Developer Unit Habitation Cube #0042",
+                            "addressType": {
+                                "code": "home",
+                                "name": "Home"
+                            },
+                            "city": "San Mateo",
+                            "country": "US",
+                            "county": "San Mateo",
+                            "description": "Created by the Address Builder with code 42",
+                            "displayName": "0042 Bridgepointe Parkway, Floor 0042, Developer Unit Habitation Cube #0042, San Mateo, CA 94404-0042",
+                            "id": "pc:Shb4hxUPKfot4l0oSJd77",
+                            "internalId": "pc:Shb4hxUPKfot4l0oSJd77",
+                            "postalCode": "94404-0042",
+                            "primary": true,
+                            "state": {
+                                "code": "CA",
+                                "name": "California"
+                            }
+                        }
+                    ],
+                    "authorizationID": "SV4SSPg9CdXzPP-h_QR0c",
+                    "ccPolicySystemId": "pc:SqVRMOcN7XGxW51wmENHu",
+                    "companyName": "EverReady Rentals",
+                    "contactSubtype": "Company",
+                    "displayName": "EverReady Rentals",
+                    "emailAddress1": "0042@guidewire.com",
+                    "emailAddress2": "0042@hotmail.com",
+                    "externalId": "pcext:S3LTiP8heZYqxz51CidZ-",
+                    "id": "pc:SqVRMOcN7XGxW51wmENHu",
+                    "namedInsured": true,
+                    "officialIds": {},
+                    "primaryAddress": {
+                        "CEDEX": "11",
+                        "addressBookUID": "pcext:SQ7aGeiJ6Xfma5ZG_jjcZ",
+                        "addressLine1": "0042 Bridgepointe Parkway",
+                        "addressLine2": "Floor 0042",
+                        "addressLine3": "Developer Unit Habitation Cube #0042",
+                        "addressType": {
+                            "code": "home",
+                            "name": "Home"
+                        },
+                        "city": "San Mateo",
+                        "country": "US",
+                        "county": "San Mateo",
+                        "description": "Created by the Address Builder with code 42",
+                        "displayName": "0042 Bridgepointe Parkway, Floor 0042, Developer Unit Habitation Cube #0042, San Mateo, CA 94404-0042",
+                        "id": "pc:Shb4hxUPKfot4l0oSJd77",
+                        "postalCode": "94404-0042",
+                        "state": {
+                            "code": "CA",
+                            "name": "California"
+                        }
+                    },
+                    "primaryPhoneType": {
+                        "code": "work",
+                        "name": "Work"
+                    },
+                    "taxId": "**-***0042"
+                },
+                {
+                    "accountContactRoles": [
+                        {
+                            "code": "NamedInsured",
+                            "name": "NamedInsured"
+                        }
+                    ],
+                    "active": true,
+                    "addressBookUID": "pcext:SFef7DGQAmbqyj1-MqtUa",
+                    "addresses": [
+                        {
+                            "CEDEX": "11",
+                            "addressBookUID": "pcext:SS3hTRBvRWPnSo3b9-zZB",
+                            "addressLine1": "0026 Bridgepointe Parkway",
+                            "addressLine2": "Floor 0026",
+                            "addressLine3": "Developer Unit Habitation Cube #0026",
+                            "addressType": {
+                                "code": "home",
+                                "name": "Home"
+                            },
+                            "city": "San Mateo",
+                            "country": "US",
+                            "county": "San Mateo",
+                            "description": "Created by the Address Builder with code 26",
+                            "displayName": "0026 Bridgepointe Parkway, Floor 0026, Developer Unit Habitation Cube #0026, San Mateo, CA 94404-0026",
+                            "id": "pc:SAdWNfi1jYg8a6XYMIGS-",
+                            "internalId": "pc:SAdWNfi1jYg8a6XYMIGS-",
+                            "postalCode": "94404-0026",
+                            "primary": true,
+                            "state": {
+                                "code": "CA",
+                                "name": "California"
+                            }
+                        }
+                    ],
+                    "authorizationID": "SEL1YxcKTlmrY67P-uO1M",
+                    "ccPolicySystemId": "pc:SshtExZCbUvBWCHYd9u3a",
+                    "companyName": "Harry's Towing",
+                    "contactSubtype": "Company",
+                    "displayName": "Harry's Towing",
+                    "emailAddress1": "0026@guidewire.com",
+                    "emailAddress2": "0026@hotmail.com",
+                    "externalId": "pcext:SFef7DGQAmbqyj1-MqtUa",
+                    "id": "pc:SshtExZCbUvBWCHYd9u3a",
+                    "namedInsured": true,
+                    "officialIds": {},
+                    "primaryAddress": {
+                        "CEDEX": "11",
+                        "addressBookUID": "pcext:SS3hTRBvRWPnSo3b9-zZB",
+                        "addressLine1": "0026 Bridgepointe Parkway",
+                        "addressLine2": "Floor 0026",
+                        "addressLine3": "Developer Unit Habitation Cube #0026",
+                        "addressType": {
+                            "code": "home",
+                            "name": "Home"
+                        },
+                        "city": "San Mateo",
+                        "country": "US",
+                        "county": "San Mateo",
+                        "description": "Created by the Address Builder with code 26",
+                        "displayName": "0026 Bridgepointe Parkway, Floor 0026, Developer Unit Habitation Cube #0026, San Mateo, CA 94404-0026",
+                        "id": "pc:SAdWNfi1jYg8a6XYMIGS-",
+                        "postalCode": "94404-0026",
+                        "state": {
+                            "code": "CA",
+                            "name": "California"
+                        }
+                    },
+                    "primaryPhoneType": {
+                        "code": "work",
+                        "name": "Work"
+                    },
+                    "taxId": "**-***0026"
+                },
+                {
+                    "accountContactRoles": [
+                        {
+                            "code": "NamedInsured",
+                            "name": "NamedInsured"
+                        }
+                    ],
+                    "active": true,
+                    "addressBookUID": "pcext:SPFNJdMC0DS7uolKvu-nI",
+                    "addresses": [
+                        {
+                            "CEDEX": "11",
+                            "addressBookUID": "pcext:SGeYc5siafZEcVgqG_vw3",
+                            "addressLine1": "0260 Bridgepointe Parkway",
+                            "addressLine2": "Floor 0260",
+                            "addressLine3": "Developer Unit Habitation Cube #0260",
+                            "addressType": {
+                                "code": "home",
+                                "name": "Home"
+                            },
+                            "city": "San Mateo",
+                            "country": "US",
+                            "county": "San Mateo",
+                            "description": "Created by the Address Builder with code 260",
+                            "displayName": "0260 Bridgepointe Parkway, Floor 0260, Developer Unit Habitation Cube #0260, San Mateo, CA 94404-0260",
+                            "id": "pc:SbdePy3o7WsyW10GLDy5Y",
+                            "internalId": "pc:SbdePy3o7WsyW10GLDy5Y",
+                            "postalCode": "94404-0260",
+                            "primary": true,
+                            "state": {
+                                "code": "CA",
+                                "name": "California"
+                            }
+                        }
+                    ],
+                    "authorizationID": "S6ZF5z3i6zBdrKht-cwPh",
+                    "ccPolicySystemId": "pc:ShVaaYfrSAkQ43R7tGb42",
+                    "companyName": "Metals Unlimited",
+                    "contactSubtype": "Company",
+                    "displayName": "Metals Unlimited",
+                    "emailAddress1": "0260@guidewire.com",
+                    "emailAddress2": "0260@hotmail.com",
+                    "externalId": "pcext:SPFNJdMC0DS7uolKvu-nI",
+                    "id": "pc:ShVaaYfrSAkQ43R7tGb42",
+                    "namedInsured": true,
+                    "officialIds": {},
+                    "primaryAddress": {
+                        "CEDEX": "11",
+                        "addressBookUID": "pcext:SGeYc5siafZEcVgqG_vw3",
+                        "addressLine1": "0260 Bridgepointe Parkway",
+                        "addressLine2": "Floor 0260",
+                        "addressLine3": "Developer Unit Habitation Cube #0260",
+                        "addressType": {
+                            "code": "home",
+                            "name": "Home"
+                        },
+                        "city": "San Mateo",
+                        "country": "US",
+                        "county": "San Mateo",
+                        "description": "Created by the Address Builder with code 260",
+                        "displayName": "0260 Bridgepointe Parkway, Floor 0260, Developer Unit Habitation Cube #0260, San Mateo, CA 94404-0260",
+                        "id": "pc:SbdePy3o7WsyW10GLDy5Y",
+                        "postalCode": "94404-0260",
+                        "state": {
+                            "code": "CA",
+                            "name": "California"
+                        }
+                    },
+                    "primaryPhoneType": {
+                        "code": "work",
+                        "name": "Work"
+                    },
+                    "taxId": "**-***0260"
+                },
+                {
+                    "accountContactRoles": [
+                        {
+                            "code": "NamedInsured",
+                            "name": "NamedInsured"
+                        }
+                    ],
+                    "active": true,
+                    "addressBookUID": "pcext:SQ714ypyDthXXsd9Nb4xq",
+                    "addresses": [
+                        {
+                            "CEDEX": "11",
+                            "addressBookUID": "pcext:S126v1_LhXco4TCHaeyif",
+                            "addressLine1": "0058 Bridgepointe Parkway",
+                            "addressLine2": "Floor 0058",
+                            "addressLine3": "Developer Unit Habitation Cube #0058",
+                            "addressType": {
+                                "code": "home",
+                                "name": "Home"
+                            },
+                            "city": "San Mateo",
+                            "country": "US",
+                            "county": "San Mateo",
+                            "description": "Created by the Address Builder with code 58",
+                            "displayName": "0058 Bridgepointe Parkway, Floor 0058, Developer Unit Habitation Cube #0058, San Mateo, CA 94404-0058",
+                            "id": "pc:SAaWX4XVIhoRpp_HN3SJb",
+                            "internalId": "pc:SAaWX4XVIhoRpp_HN3SJb",
+                            "postalCode": "94404-0058",
+                            "primary": true,
+                            "state": {
+                                "code": "CA",
+                                "name": "California"
+                            }
+                        }
+                    ],
+                    "authorizationID": "SfXz7TCUM6_wmPHrvn0_N",
+                    "ccPolicySystemId": "pc:SO81QhQ_UWeJXV4DuuUde",
+                    "companyName": "Speedy Glass Repair",
+                    "contactSubtype": "Company",
+                    "displayName": "Speedy Glass Repair",
+                    "emailAddress1": "0058@guidewire.com",
+                    "emailAddress2": "0058@hotmail.com",
+                    "externalId": "pcext:SQ714ypyDthXXsd9Nb4xq",
+                    "id": "pc:SO81QhQ_UWeJXV4DuuUde",
+                    "namedInsured": true,
+                    "officialIds": {},
+                    "primaryAddress": {
+                        "CEDEX": "11",
+                        "addressBookUID": "pcext:S126v1_LhXco4TCHaeyif",
+                        "addressLine1": "0058 Bridgepointe Parkway",
+                        "addressLine2": "Floor 0058",
+                        "addressLine3": "Developer Unit Habitation Cube #0058",
+                        "addressType": {
+                            "code": "home",
+                            "name": "Home"
+                        },
+                        "city": "San Mateo",
+                        "country": "US",
+                        "county": "San Mateo",
+                        "description": "Created by the Address Builder with code 58",
+                        "displayName": "0058 Bridgepointe Parkway, Floor 0058, Developer Unit Habitation Cube #0058, San Mateo, CA 94404-0058",
+                        "id": "pc:SAaWX4XVIhoRpp_HN3SJb",
+                        "postalCode": "94404-0058",
+                        "state": {
+                            "code": "CA",
+                            "name": "California"
+                        }
+                    },
+                    "primaryPhoneType": {
+                        "code": "work",
+                        "name": "Work"
+                    },
+                    "taxId": "**-***0058"
+                },
+                {
+                    "accountContactRoles": [
+                        {
+                            "code": "APDInvolvedParty",
+                            "name": "APDInvolvedParty"
+                        }
+                    ],
+                    "active": true,
+                    "addressBookUID": "pcext:SiRWNGtCDHDTWr2OFUBjH",
+                    "addresses": [
+                        {
+                            "addressBookUID": "pcext:SUrRSM4SDJmmkaW3Juxyh",
+                            "addressLine1": "1001 E Hillsdale Blvd",
+                            "addressType": {
+                                "code": "home",
+                                "name": "Home"
+                            },
+                            "city": "Foster City",
+                            "country": "US",
+                            "county": "San Mateo",
+                            "displayName": "1001 E Hillsdale Blvd, Foster City, CA 94404",
+                            "id": "pc:SviRBEFzedtIFWNYuv4w7",
+                            "internalId": "pc:SviRBEFzedtIFWNYuv4w7",
+                            "postalCode": "94404",
+                            "primary": true,
+                            "state": {
+                                "code": "CA",
+                                "name": "California"
+                            }
+                        }
+                    ],
+                    "authorizationID": "SxQMu7YWiI3Oi8BM3H4f_",
+                    "ccPolicySystemId": "pc:SR_my14jm9QxQ5SPISBZe",
+                    "contactSubtype": "Person",
+                    "displayName": "Mary Newton",
+                    "externalId": "pcext:SiRWNGtCDHDTWr2OFUBjH",
+                    "firstName": "Mary",
+                    "id": "pc:SR_my14jm9QxQ5SPISBZe",
+                    "lastName": "Newton",
+                    "licenseNumber": "BCD124",
+                    "licenseState": {
+                        "code": "CA",
+                        "name": "California"
+                    },
+                    "officialIds": {},
+                    "primaryAddress": {
+                        "addressBookUID": "pcext:SUrRSM4SDJmmkaW3Juxyh",
+                        "addressLine1": "1001 E Hillsdale Blvd",
+                        "addressType": {
+                            "code": "home",
+                            "name": "Home"
+                        },
+                        "city": "Foster City",
+                        "country": "US",
+                        "county": "San Mateo",
+                        "displayName": "1001 E Hillsdale Blvd, Foster City, CA 94404",
+                        "id": "pc:SviRBEFzedtIFWNYuv4w7",
+                        "postalCode": "94404",
+                        "state": {
+                            "code": "CA",
+                            "name": "California"
+                        }
+                    }
+                },
+                {
+                    "accountContactRoles": [
+                        {
+                            "code": "AccountHolder",
+                            "name": "AccountHolder"
+                        },
+                        {
+                            "code": "APDInvolvedParty",
+                            "name": "APDInvolvedParty"
+                        },
+                        {
+                            "code": "Driver",
+                            "name": "Driver"
+                        },
+                        {
+                            "code": "NamedInsured",
+                            "name": "NamedInsured"
+                        }
+                    ],
+                    "active": true,
+                    "addressBookUID": "pcext:ScrBQeLTz4ZuxsKHqLPQi",
+                    "addresses": [
+                        {
+                            "CEDEX": "11",
+                            "addressBookUID": "pcext:SkehClViWs5CbXtiFgHVV",
+                            "addressLine1": "1253 Paloma Ave",
+                            "addressLine2": "Floor 0000",
+                            "addressLine3": "Developer Unit Habitation Cube #0000",
+                            "addressType": {
+                                "code": "home",
+                                "name": "Home"
+                            },
+                            "city": "Arcadia",
+                            "country": "US",
+                            "county": "San Mateo",
+                            "description": "Created by the Address Builder with code 0",
+                            "displayName": "1253 Paloma Ave, Floor 0000, Developer Unit Habitation Cube #0000, Arcadia, CA 91007",
+                            "id": "pc:SgsRlTdu-q7oellBQfUep",
+                            "internalId": "pc:SgsRlTdu-q7oellBQfUep",
+                            "postalCode": "91007",
+                            "primary": true,
+                            "state": {
+                                "code": "CA",
+                                "name": "California"
+                            }
+                        }
+                    ],
+                    "authorizationID": "SAGN8UfRzt-hEkN3A6AeA",
+                    "ccPolicySystemId": "test_pp:2",
+                    "cellPhone": {
+                        "countryCode": {
+                            "code": "US",
+                            "name": "United States (1)"
+                        },
+                        "displayName": "650-333-3333",
+                        "number": "6503333333"
+                    },
+                    "contactSubtype": "Person",
+                    "dateOfBirth": "1970-01-01",
+                    "displayName": "Ray Newton",
+                    "driver": true,
+                    "emailAddress1": "8729@guidewire.com",
+                    "emailAddress2": "8729@hotmail.com",
+                    "externalId": "pcext:ScrBQeLTz4ZuxsKHqLPQi",
+                    "firstName": "Ray",
+                    "goodDriverDiscount": false,
+                    "id": "test_pp:2",
+                    "industryCode": {
+                        "code": "0740",
+                        "description": "Veterinarians / Veterinarian / Veterinary Services",
+                        "id": "SIC:0740"
+                    },
+                    "lastName": "Newton",
+                    "licenseNumber": "B0008729",
+                    "licenseState": {
+                        "code": "CA",
+                        "name": "California"
+                    },
+                    "maritalStatus": {
+                        "code": "S",
+                        "name": "Single"
+                    },
+                    "namedInsured": true,
+                    "numberOfAccidents": {
+                        "code": "0",
+                        "name": "0"
+                    },
+                    "numberOfViolations": {
+                        "code": "0",
+                        "name": "0"
+                    },
+                    "officialIds": {},
+                    "primaryAddress": {
+                        "CEDEX": "11",
+                        "addressBookUID": "pcext:SkehClViWs5CbXtiFgHVV",
+                        "addressLine1": "1253 Paloma Ave",
+                        "addressLine2": "Floor 0000",
+                        "addressLine3": "Developer Unit Habitation Cube #0000",
+                        "addressType": {
+                            "code": "home",
+                            "name": "Home"
+                        },
+                        "city": "Arcadia",
+                        "country": "US",
+                        "county": "San Mateo",
+                        "description": "Created by the Address Builder with code 0",
+                        "displayName": "1253 Paloma Ave, Floor 0000, Developer Unit Habitation Cube #0000, Arcadia, CA 91007",
+                        "id": "pc:SgsRlTdu-q7oellBQfUep",
+                        "postalCode": "91007",
+                        "state": {
+                            "code": "CA",
+                            "name": "California"
+                        }
+                    },
+                    "primaryPhone": "818-446-1206",
+                    "primaryPhoneType": {
+                        "code": "work",
+                        "name": "Work"
+                    },
+                    "taxId": "***-**-8729",
+                    "workPhone": {
+                        "displayName": "818-446-1206",
+                        "number": "8184461206"
+                    },
+                    "yearLicensed": 1988
+                },
+                {
+                    "accountContactRoles": [
+                        {
+                            "code": "Driver",
+                            "name": "Driver"
+                        }
+                    ],
+                    "active": true,
+                    "addressBookUID": "pcext:SToO5B21W9jMmyKV57b6g",
+                    "addresses": [
+                        {
+                            "CEDEX": "11",
+                            "addressBookUID": "pcext:S6m8hssIp7qKPBY5M4Wt9",
+                            "addressLine1": "4321 Bridgepointe Parkway",
+                            "addressLine2": "Floor 4321",
+                            "addressLine3": "Developer Unit Habitation Cube #4321",
+                            "addressType": {
+                                "code": "home",
+                                "name": "Home"
+                            },
+                            "city": "San Mateo",
+                            "country": "US",
+                            "county": "San Mateo",
+                            "description": "Created by the Address Builder with code 4321",
+                            "displayName": "4321 Bridgepointe Parkway, Floor 4321, Developer Unit Habitation Cube #4321, San Mateo, CA 94404-4321",
+                            "id": "pc:SfNzrbqWe7R5m8E4Q_FP6",
+                            "internalId": "pc:SfNzrbqWe7R5m8E4Q_FP6",
+                            "postalCode": "94404-4321",
+                            "primary": true,
+                            "state": {
+                                "code": "CA",
+                                "name": "California"
+                            }
+                        }
+                    ],
+                    "authorizationID": "SyQ9NvvRCriUwvDUfNmX1",
+                    "ccPolicySystemId": "pc:SlVrkl85m3YixrptdVHqz",
+                    "cellPhone": {
+                        "countryCode": {
+                            "code": "US",
+                            "name": "United States (1)"
+                        },
+                        "displayName": "650-333-3333",
+                        "number": "6503333333"
+                    },
+                    "contactSubtype": "Person",
+                    "dateOfBirth": "1970-01-01",
+                    "displayName": "John Smith",
+                    "driver": true,
+                    "emailAddress1": "4321@guidewire.com",
+                    "emailAddress2": "4321@hotmail.com",
+                    "externalId": "pcext:SToO5B21W9jMmyKV57b6g",
+                    "firstName": "John",
+                    "goodDriverDiscount": false,
+                    "id": "pc:SlVrkl85m3YixrptdVHqz",
+                    "lastName": "Smith",
+                    "licenseNumber": "987654321",
+                    "licenseState": {
+                        "code": "CA",
+                        "name": "California"
+                    },
+                    "maritalStatus": {
+                        "code": "S",
+                        "name": "Single"
+                    },
+                    "numberOfAccidents": {
+                        "code": "0",
+                        "name": "0"
+                    },
+                    "numberOfViolations": {
+                        "code": "0",
+                        "name": "0"
+                    },
+                    "officialIds": {},
+                    "primaryAddress": {
+                        "CEDEX": "11",
+                        "addressBookUID": "pcext:S6m8hssIp7qKPBY5M4Wt9",
+                        "addressLine1": "4321 Bridgepointe Parkway",
+                        "addressLine2": "Floor 4321",
+                        "addressLine3": "Developer Unit Habitation Cube #4321",
+                        "addressType": {
+                            "code": "home",
+                            "name": "Home"
+                        },
+                        "city": "San Mateo",
+                        "country": "US",
+                        "county": "San Mateo",
+                        "description": "Created by the Address Builder with code 4321",
+                        "displayName": "4321 Bridgepointe Parkway, Floor 4321, Developer Unit Habitation Cube #4321, San Mateo, CA 94404-4321",
+                        "id": "pc:SfNzrbqWe7R5m8E4Q_FP6",
+                        "postalCode": "94404-4321",
+                        "state": {
+                            "code": "CA",
+                            "name": "California"
+                        }
+                    },
+                    "primaryPhone": "650-333-3333",
+                    "primaryPhoneType": {
+                        "code": "mobile",
+                        "name": "Mobile"
+                    },
+                    "taxId": "***-**-4321",
+                    "yearLicensed": 1988
+                }
+            ],
+            "createdDate": "2024-12-14T00:02:50.307Z",
+            "frozen": false,
+            "id": "pc:SqBDPCOT-grxjKKJUO8bV",
+            "industryCode": {
+                "code": "0740",
+                "description": "Veterinarians / Veterinarian / Veterinary Services",
+                "id": "SIC:0740"
+            },
+            "locations": [
+                {
+                    "active": true,
+                    "addressLine1": "0001 Bridgepointe Parkway",
+                    "addressType": {
+                        "code": "home",
+                        "name": "Home"
+                    },
+                    "city": "San Mateo",
+                    "country": "US",
+                    "county": "San Mateo",
+                    "displayName": "2: Location 0001",
+                    "employeeCount": 1,
+                    "id": "pc:S8YriWKm1BD81VYSMvxjj",
+                    "locationCode": "0001",
+                    "locationName": "Location 0001",
+                    "locationNum": 2,
+                    "nonSpecific": false,
+                    "postalCode": "94404-0001",
+                    "state": {
+                        "code": "TX",
+                        "name": "Texas"
+                    }
+                },
+                {
+                    "active": true,
+                    "addressLine1": "0002 Bridgepointe Parkway",
+                    "addressType": {
+                        "code": "home",
+                        "name": "Home"
+                    },
+                    "city": "San Mateo",
+                    "country": "US",
+                    "county": "San Mateo",
+                    "displayName": "3: Location 0002",
+                    "employeeCount": 2,
+                    "id": "pc:SsCPKObt3AnaPjoSMvVaw",
+                    "locationCode": "0002",
+                    "locationName": "Location 0002",
+                    "locationNum": 3,
+                    "nonSpecific": false,
+                    "postalCode": "94404-0002",
+                    "state": {
+                        "code": "NY",
+                        "name": "New York"
+                    }
+                },
+                {
+                    "CEDEX": "11",
+                    "active": true,
+                    "addressLine1": "1253 Paloma Ave",
+                    "addressLine2": "Floor 0000",
+                    "addressLine3": "Developer Unit Habitation Cube #0000",
+                    "addressType": {
+                        "code": "home",
+                        "name": "Home"
+                    },
+                    "city": "Arcadia",
+                    "country": "US",
+                    "county": "San Mateo",
+                    "displayName": "4: 1253 Paloma Ave, Arcadia, CA",
+                    "id": "pc:SVAoY9N0XdqukfUxfGSRi",
+                    "locationCode": "0000",
+                    "locationNum": 4,
+                    "nonSpecific": false,
+                    "phone": {
+                        "displayName": "818-446-1206",
+                        "number": "8184461206"
+                    },
+                    "postalCode": "91007",
+                    "state": {
+                        "code": "CA",
+                        "name": "California"
+                    }
+                }
+            ],
+            "numberOfContacts": "9",
+            "organizationType": {
+                "code": "commonownership",
+                "name": "Common ownership"
+            },
+            "preferredCoverageCurrency": {
+                "code": "usd",
+                "name": "USD"
+            },
+            "preferredSettlementCurrency": {
+                "code": "usd",
+                "name": "USD"
+            },
+            "primaryLanguage": {
+                "code": "en_US",
+                "name": "English (US)"
+            },
+            "primaryLocale": {
+                "code": "en_US",
+                "name": "United States (English)"
+            },
+            "primaryLocation": {
+                "displayName": "4: 1253 Paloma Ave, Arcadia, CA",
+                "id": "pc:SVAoY9N0XdqukfUxfGSRi",
+                "internalId": "entity.AccountLocation:749",
+                "type": "AccountLocation",
+                "uri": "/account/v1/accounts/pc:SqBDPCOT-grxjKKJUO8bV/locations/pc:SVAoY9N0XdqukfUxfGSRi"
+            },
+            "producerCodes": [
+                {
+                    "displayName": "100-002541",
+                    "id": "pc:6",
+                    "internalId": "entity.ProducerCode:6"
+                }
+            ],
+            "userRoles": [
+                {
+                    "group": "pc:STMwSvXr0D7BqhOzjr2Sl",
+                    "id": "pc:SMZhqSeE2KfBeVykzRkI0",
+                    "role": {
+                        "code": "Creator",
+                        "name": "Creator"
+                    },
+                    "user": "pc:Sc8g2unfTiiomQk5IzptN"
+                }
+            ]
+        },
+        "currentPeriod": {
+            "jobEffectiveDate": "2024-12-20T08:01:00.000Z",
+            "jobType": {
+                "code": "Submission",
+                "name": "Submission"
+            },
+            "periodEnd": "2025-12-20T08:01:00.000Z",
+            "periodStart": "2024-12-20T08:01:00.000Z",
+            "slices": [
+                {
+                    "account": {
+                        "displayName": "C000143542",
+                        "id": "pc:SqBDPCOT-grxjKKJUO8bV",
+                        "internalId": "entity.Account:2",
+                        "type": "Account",
+                        "uri": "/account/v1/accounts/pc:SqBDPCOT-grxjKKJUO8bV"
+                    },
+                    "answers": {},
+                    "baseState": {
+                        "code": "CA",
+                        "name": "California"
+                    },
+                    "ccPolicySystemId": "101",
+                    "contacts": [
+                        {
+                            "accountContact": {
+                                "displayName": "Ray Newton",
+                                "id": "test_pp:2",
+                                "internalId": "entity.AccountContact:9",
+                                "type": "AccountContact",
+                                "uri": "/account/v1/accounts/pc:SqBDPCOT-grxjKKJUO8bV/contacts/test_pp:2"
+                            },
+                            "addressBookUID": "pcext:ScrBQeLTz4ZuxsKHqLPQi",
+                            "addresses": [
+                                {
+                                    "CEDEX": "11",
+                                    "addressBookUID": "pcext:SkehClViWs5CbXtiFgHVV",
+                                    "addressLine1": "1253 Paloma Ave",
+                                    "addressLine2": "Floor 0000",
+                                    "addressLine3": "Developer Unit Habitation Cube #0000",
+                                    "addressType": {
+                                        "code": "home",
+                                        "name": "Home"
+                                    },
+                                    "city": "Arcadia",
+                                    "country": "US",
+                                    "county": "San Mateo",
+                                    "description": "Created by the Address Builder with code 0",
+                                    "displayName": "1253 Paloma Ave, Floor 0000, Developer Unit Habitation Cube #0000, Arcadia, CA 91007",
+                                    "id": "pc:SgsRlTdu-q7oellBQfUep",
+                                    "internalId": "pc:SgsRlTdu-q7oellBQfUep",
+                                    "postalCode": "91007",
+                                    "primary": true,
+                                    "state": {
+                                        "code": "CA",
+                                        "name": "California"
+                                    }
+                                }
+                            ],
+                            "authorizationID": "SAGN8UfRzt-hEkN3A6AeA",
+                            "ccPolicySystemId": "test_pp:2",
+                            "cellPhone": {
+                                "countryCode": {
+                                    "code": "US",
+                                    "name": "United States (1)"
+                                },
+                                "displayName": "650-333-3333",
+                                "number": "6503333333"
+                            },
+                            "contactSubtype": "Person",
+                            "dateOfBirth": "1970-01-01",
+                            "displayName": "Ray Newton",
+                            "emailAddress1": "8729@guidewire.com",
+                            "emailAddress2": "8729@hotmail.com",
+                            "externalId": "pcext:ScrBQeLTz4ZuxsKHqLPQi",
+                            "firstName": "Ray",
+                            "goodDriverDiscount": false,
+                            "id": "test_pp:2",
+                            "industryCode": {
+                                "code": "0740",
+                                "description": "Veterinarians / Veterinarian / Veterinary Services",
+                                "id": "SIC:0740"
+                            },
+                            "lastName": "Newton",
+                            "maritalStatus": {
+                                "code": "S",
+                                "name": "Single"
+                            },
+                            "numberOfAccidents": {
+                                "code": "0",
+                                "name": "0"
+                            },
+                            "numberOfViolations": {
+                                "code": "0",
+                                "name": "0"
+                            },
+                            "officialIds": {},
+                            "policyContactRoles": [
+                                {
+                                    "code": "APDPolicyInvolvedParty",
+                                    "name": "APDPolicyInvolvedParty"
+                                },
+                                {
+                                    "code": "PolicyPriNamedInsured",
+                                    "name": "PolicyPriNamedInsured"
+                                }
+                            ],
+                            "primaryAddress": {
+                                "CEDEX": "11",
+                                "addressBookUID": "pcext:SkehClViWs5CbXtiFgHVV",
+                                "addressLine1": "1253 Paloma Ave",
+                                "addressLine2": "Floor 0000",
+                                "addressLine3": "Developer Unit Habitation Cube #0000",
+                                "addressType": {
+                                    "code": "home",
+                                    "name": "Home"
+                                },
+                                "city": "Arcadia",
+                                "country": "US",
+                                "county": "San Mateo",
+                                "description": "Created by the Address Builder with code 0",
+                                "displayName": "1253 Paloma Ave, Floor 0000, Developer Unit Habitation Cube #0000, Arcadia, CA 91007",
+                                "id": "pc:SgsRlTdu-q7oellBQfUep",
+                                "postalCode": "91007",
+                                "state": {
+                                    "code": "CA",
+                                    "name": "California"
+                                }
+                            },
+                            "primaryPhone": "818-446-1206",
+                            "primaryPhoneType": {
+                                "code": "work",
+                                "name": "Work"
+                            },
+                            "taxId": "***-**-8729",
+                            "workPhone": {
+                                "displayName": "818-446-1206",
+                                "number": "8184461206"
+                            },
+                            "yearLicensed": 1988
+                        }
+                    ],
+                    "createdDate": "2024-12-21T00:40:46.332Z",
+                    "editEffectiveDate": "2024-12-20T08:01:00.000Z",
+                    "id": "pc:S55mzMg_ECeXqqUcumPq4",
+                    "jobEffectiveDate": "2024-12-20T08:01:00.000Z",
+                    "jobNumber": "0000014524",
+                    "jobStatus": {
+                        "code": "Draft",
+                        "name": "Draft"
+                    },
+                    "jobType": {
+                        "code": "Submission",
+                        "name": "Submission"
+                    },
+                    "lines": {
+                        "UALPersonalAutoLine": {
+                            "ccPolicySystemId": "entity.APDRiskPolicyLine:101",
+                            "coverableJurisdiction": {
+                                "code": "CA",
+                                "name": "California"
+                            },
+                            "coverages": {
+                                "UALLiability": {
+                                    "clauseType": "coverage",
+                                    "id": "UALLiability",
+                                    "internalId": "entity.APDRiskCoverage:104",
+                                    "pattern": {
+                                        "displayName": "Liability - Bodily Injury and Property Damage",
+                                        "id": "UALLiability"
+                                    },
+                                    "priority": 1,
+                                    "selected": true,
+                                    "terms": {
+                                        "UALLiabilityLiabPack": {
+                                            "covTermType": "typekey",
+                                            "displayValue": "100/200/50",
+                                            "pattern": {
+                                                "displayName": "Auto Liability Package",
+                                                "id": "UALLiabilityLiabPack"
+                                            },
+                                            "typekeyValue": {
+                                                "code": "P10020050",
+                                                "name": "100/200/50"
+                                            }
+                                        }
+                                    }
+                                },
+                                "UALMedPay": {
+                                    "clauseType": "coverage",
+                                    "id": "UALMedPay",
+                                    "internalId": "entity.APDRiskCoverage:103",
+                                    "pattern": {
+                                        "displayName": "Medical Payments",
+                                        "id": "UALMedPay"
+                                    },
+                                    "priority": 2,
+                                    "selected": true,
+                                    "terms": {
+                                        "UALMedPayCoordBen": {
+                                            "booleanValue": true,
+                                            "covTermType": "boolean",
+                                            "displayValue": "Yes",
+                                            "pattern": {
+                                                "displayName": "Coordinate Benefits",
+                                                "id": "UALMedPayCoordBen"
+                                            }
+                                        },
+                                        "UALMedPayMedLimit": {
+                                            "choiceValue": {
+                                                "code": "L10usd",
+                                                "name": "10,000",
+                                                "values": [
+                                                    {
+                                                        "value": "10000",
+                                                        "valueType": {
+                                                            "code": "money",
+                                                            "name": "Money"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "covTermType": "choice",
+                                            "displayValue": "10,000",
+                                            "pattern": {
+                                                "displayName": "Medical Limit",
+                                                "id": "UALMedPayMedLimit"
+                                            }
+                                        }
+                                    }
+                                },
+                                "UALUMBI": {
+                                    "clauseType": "coverage",
+                                    "id": "UALUMBI",
+                                    "internalId": "entity.APDRiskCoverage:101",
+                                    "pattern": {
+                                        "displayName": "Uninsured Motorist - Bodily Injury",
+                                        "id": "UALUMBI"
+                                    },
+                                    "priority": 4,
+                                    "selected": true,
+                                    "terms": {
+                                        "UALUMBIUMBIIncUIM": {
+                                            "covTermType": "typekey",
+                                            "displayValue": "Yes",
+                                            "pattern": {
+                                                "displayName": "Include Underinsured",
+                                                "id": "UALUMBIUMBIIncUIM"
+                                            },
+                                            "typekeyValue": {
+                                                "code": "Yes",
+                                                "name": "Yes"
+                                            }
+                                        },
+                                        "UALUMBIUMBILimits": {
+                                            "covTermType": "typekey",
+                                            "displayValue": "20/40",
+                                            "pattern": {
+                                                "displayName": "Uninsured Motorist - BI Limits",
+                                                "id": "UALUMBIUMBILimits"
+                                            },
+                                            "typekeyValue": {
+                                                "code": "BI2040",
+                                                "name": "20/40"
+                                            }
+                                        },
+                                        "UALUMBIUMBIStack": {
+                                            "booleanValue": false,
+                                            "covTermType": "boolean",
+                                            "displayValue": "No",
+                                            "pattern": {
+                                                "displayName": "Stacked Limits",
+                                                "id": "UALUMBIUMBIStack"
+                                            }
+                                        }
+                                    }
+                                },
+                                "UALUMPD": {
+                                    "clauseType": "coverage",
+                                    "id": "UALUMPD",
+                                    "internalId": "entity.APDRiskCoverage:102",
+                                    "pattern": {
+                                        "displayName": "Uninsured Motorist - Property Damage",
+                                        "id": "UALUMPD"
+                                    },
+                                    "priority": 5,
+                                    "selected": true,
+                                    "terms": {
+                                        "UALUMPDUMPDLimit": {
+                                            "choiceValue": {
+                                                "code": "UMPD10000usd",
+                                                "name": "10,000",
+                                                "values": [
+                                                    {
+                                                        "value": "10000",
+                                                        "valueType": {
+                                                            "code": "money",
+                                                            "name": "Money"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "covTermType": "choice",
+                                            "displayValue": "10,000",
+                                            "pattern": {
+                                                "displayName": "Uninsured Motorist - Property Damage Limit",
+                                                "id": "UALUMPDUMPDLimit"
+                                            }
+                                        },
+                                        "UALUMPDUMPDStack": {
+                                            "booleanValue": false,
+                                            "covTermType": "boolean",
+                                            "displayValue": "No",
+                                            "pattern": {
+                                                "displayName": "Stacked Limits",
+                                                "id": "UALUMPDUMPDStack"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "internalId": "entity.APDRiskPolicyLine:101",
+                            "pattern": {
+                                "displayName": "USA Personal Auto",
+                                "id": "UALPersonalAutoLine"
+                            },
+                            "patternCode": "UALPersonalAutoLine",
+                            "personalVehicles": [
+                                {
+                                    "basisAmount": 2456,
+                                    "ccPolicySystemId": "entity.APDRiskCoverable:102",
+                                    "costNew": "23452.00",
+                                    "coverableJurisdiction": {
+                                        "code": "CA",
+                                        "name": "California"
+                                    },
+                                    "coverages": {
+                                        "UALColl": {
+                                            "clauseType": "coverage",
+                                            "id": "UALColl",
+                                            "internalId": "entity.APDRiskCoverage:106",
+                                            "pattern": {
+                                                "displayName": "Collision",
+                                                "id": "UALColl"
+                                            },
+                                            "priority": 2,
+                                            "selected": true,
+                                            "terms": {
+                                                "UALCollCollDed": {
+                                                    "choiceValue": {
+                                                        "code": "CollD500usd",
+                                                        "name": "500",
+                                                        "values": [
+                                                            {
+                                                                "value": "500",
+                                                                "valueType": {
+                                                                    "code": "money",
+                                                                    "name": "Money"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "covTermType": "choice",
+                                                    "displayValue": "500",
+                                                    "pattern": {
+                                                        "displayName": "Collision Deductible",
+                                                        "id": "UALCollCollDed"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "UALComp": {
+                                            "clauseType": "coverage",
+                                            "id": "UALComp",
+                                            "internalId": "entity.APDRiskCoverage:105",
+                                            "pattern": {
+                                                "displayName": "Comprehensive",
+                                                "id": "UALComp"
+                                            },
+                                            "priority": 1,
+                                            "selected": true,
+                                            "terms": {
+                                                "UALCompCompDed": {
+                                                    "choiceValue": {
+                                                        "code": "CompD500usd",
+                                                        "name": "500",
+                                                        "values": [
+                                                            {
+                                                                "value": "500",
+                                                                "valueType": {
+                                                                    "code": "money",
+                                                                    "name": "Money"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "covTermType": "choice",
+                                                    "displayValue": "500",
+                                                    "pattern": {
+                                                        "displayName": "Comprehensive Deductible",
+                                                        "id": "UALCompCompDed"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "id": "102",
+                                    "internalId": "entity.APDRiskCoverable:102",
+                                    "licensePlate": "12ASR2",
+                                    "licenseState": {
+                                        "code": "LCA",
+                                        "name": "California"
+                                    },
+                                    "productEdition": {
+                                        "editionCode": "BaseEdition"
+                                    },
+                                    "sequenceNumber": 1,
+                                    "statedValue": "24562.00",
+                                    "vehicleType": {
+                                        "code": "VTLightTruck",
+                                        "name": "Passenger/Light Truck"
+                                    },
+                                    "vin": "1"
+                                }
+                            ],
+                            "policyDriverMVRs": [
+                                {
+                                    "addedDate": "2024-12-20T08:01:00.000Z",
+                                    "ccPolicySystemId": "entity.APDRiskExposure:201",
+                                    "driversVision": true,
+                                    "id": "201",
+                                    "internalId": "entity.APDRiskExposure:201",
+                                    "mvrAccident": 1,
+                                    "mvrViolations": 1,
+                                    "points": 1,
+                                    "policyDriver": {
+                                        "displayName": "Ray Newton",
+                                        "id": "test_pp:2",
+                                        "jsonPath": "$.contacts[?(@.id=='test_pp:2')]",
+                                        "type": "PolicyContact",
+                                        "uri": "/job/v1/jobs/pc:S7VZCfpfxIX3TBArz_XR7/contacts/test_pp:2"
+                                    },
+                                    "productEdition": {
+                                        "editionCode": "BaseEdition"
+                                    },
+                                    "removedDate": "2025-12-20T08:01:00.000Z",
+                                    "splits": {
+                                        "1": {
+                                            "endDate": "2025-12-20T08:01:00.000Z",
+                                            "noOfClaims": 0,
+                                            "startDate": "2024-12-20T08:01:00.000Z"
+                                        }
+                                    },
+                                    "statusDate": "2024-12-19T08:00:00.000Z"
+                                }
+                            ],
+                            "productEdition": {
+                                "editionCode": "BaseEdition"
+                            }
+                        }
+                    },
+                    "locations": [
+                        {
+                            "CEDEX": "11",
+                            "accountLocation": {
+                                "displayName": "4: 1253 Paloma Ave, Arcadia, CA",
+                                "id": "pc:SVAoY9N0XdqukfUxfGSRi",
+                                "internalId": "entity.AccountLocation:749",
+                                "type": "AccountLocation",
+                                "uri": "/account/v1/accounts/pc:SqBDPCOT-grxjKKJUO8bV/locations/pc:SVAoY9N0XdqukfUxfGSRi"
+                            },
+                            "addressLine1": "1253 Paloma Ave",
+                            "addressLine2": "Floor 0000",
+                            "addressLine3": "Developer Unit Habitation Cube #0000",
+                            "addressType": {
+                                "code": "home",
+                                "name": "Home"
+                            },
+                            "ccPolicySystemId": "entity.PolicyLocation:101",
+                            "city": "Arcadia",
+                            "country": "US",
+                            "county": "San Mateo",
+                            "description": "Created by the Address Builder with code 0",
+                            "displayName": "1: 1253 Paloma Ave, Arcadia, CA",
+                            "id": "101",
+                            "internalId": "entity.PolicyLocation:101",
+                            "locationNum": 1,
+                            "postalCode": "91007",
+                            "primary": true,
+                            "state": {
+                                "code": "CA",
+                                "name": "California"
+                            }
+                        }
+                    ],
+                    "lossHistory": {
+                        "id": "loss-history",
+                        "internalId": "entity.Policy:101",
+                        "lossHistoryType": {
+                            "code": "nol",
+                            "name": "No Loss History"
+                        }
+                    },
+                    "modifiers": {},
+                    "organization": {
+                        "displayName": "Armstrong and Company",
+                        "id": "pc:1",
+                        "internalId": "entity.Organization:2",
+                        "type": "Organization",
+                        "uri": "/admin/v1/organizations/pc:1"
+                    },
+                    "organizationOfService": {
+                        "displayName": "Armstrong and Company",
+                        "id": "pc:1",
+                        "internalId": "entity.Organization:2",
+                        "type": "Organization",
+                        "uri": "/admin/v1/organizations/pc:1"
+                    },
+                    "periodEnd": "2025-12-20T08:01:00.000Z",
+                    "periodStart": "2024-12-20T08:01:00.000Z",
+                    "policyAddress": {
+                        "CEDEX": "11",
+                        "addressLine1": "1253 Paloma Ave",
+                        "addressLine2": "Floor 0000",
+                        "addressLine3": "Developer Unit Habitation Cube #0000",
+                        "addressType": {
+                            "code": "home",
+                            "name": "Home"
+                        },
+                        "ccPolicySystemId": "entity.PolicyAddress:101",
+                        "city": "Arcadia",
+                        "country": "US",
+                        "county": "San Mateo",
+                        "description": "Created by the Address Builder with code 0",
+                        "displayName": "Created by the Address Builder with code 0",
+                        "id": "101",
+                        "postalCode": "91007",
+                        "primaryNamedInsuredAddress": {
+                            "displayName": "1253 Paloma Ave, Floor 0000, Developer Unit Habitation Cube #0000, Arcadia, CA 91007",
+                            "id": "pc:SgsRlTdu-q7oellBQfUep",
+                            "internalId": "entity.Address:70"
+                        },
+                        "state": {
+                            "code": "CA",
+                            "name": "California"
+                        }
+                    },
+                    "preferredCoverageCurrency": {
+                        "code": "usd",
+                        "name": "USD"
+                    },
+                    "preferredSettlementCurrency": {
+                        "code": "usd",
+                        "name": "USD"
+                    },
+                    "primaryInsured": {
+                        "displayName": "Ray Newton",
+                        "id": "test_pp:2",
+                        "jsonPath": "$.contacts[?(@.id=='test_pp:2')]",
+                        "type": "PolicyContact",
+                        "uri": "/job/v1/jobs/pc:S7VZCfpfxIX3TBArz_XR7/contacts/test_pp:2"
+                    },
+                    "primaryLocation": {
+                        "displayName": "1: 1253 Paloma Ave, Arcadia, CA",
+                        "id": "101",
+                        "internalId": "entity.PolicyLocation:101",
+                        "jsonPath": "$.locations[?(@.id=='101')]",
+                        "type": "PolicyLocation",
+                        "uri": "/job/v1/jobs/pc:S7VZCfpfxIX3TBArz_XR7/locations/101"
+                    },
+                    "producerCode": {
+                        "displayName": "100-002541",
+                        "id": "pc:6",
+                        "internalId": "entity.ProducerCode:6"
+                    },
+                    "producerCodeOfService": {
+                        "displayName": "100-002541",
+                        "id": "pc:6",
+                        "internalId": "entity.ProducerCode:6"
+                    },
+                    "product": {
+                        "displayName": "USA Personal Auto",
+                        "id": "USAPersonalAuto"
+                    },
+                    "quoteType": {
+                        "code": "Full",
+                        "name": "Full Application"
+                    },
+                    "sliceDate": "2024-12-20T08:01:00.000Z",
+                    "termType": {
+                        "code": "Annual",
+                        "name": "Annual"
+                    },
+                    "uwCompany": {
+                        "code": {
+                            "code": "default",
+                            "name": "Default"
+                        },
+                        "displayName": "Default",
+                        "id": "apd:1",
+                        "internalId": "entity.UWCompany:10"
+                    }
+                }
+            ]
         }
-      },
-      "callerId": "f4ccffcd-a0a8-492c-9635-633b72f09807",
-      "audiences": [
-        "INTERNAL"
-      ],
-      "selectors": {
-        "jurisdictions": "CA",
-        "transactionDate": "2025-01-09T08:01:00.000Z"
-      },
-      "timestamp": "2025-01-09T18:41:35.082244561Z",
-      "contextMap": null,
-      "componentCode": "SEPAInitialGlobalVariableRatingVariable",
-      "componentType": "ratingvariable",
-      "elapsedTimeNs": 5589664,
-      "componentVersion": "1"
     },
-    {
-      "id": "5d2519b8-1000-4b3e-8303-468ddc52f431",
-      "type": "SYSTEM",
-      "error": null,
-      "level": "DEBUG",
-      "inputs": {
-        "parameters": {
-          "DEFAULT": {
-            "sliceNumber": 0
-          }
+    "productSchema": null,
+    "serviceParams": [
+        {
+            "serviceUrl": "/api/v1/package/{PACKAGE_ID}/rate",
+            "serviceName": "rateflow",
+            "payloadType": "TERM",
+            "headers": []
         }
-      },
-      "groupId": "1736448094906391339",
-      "message": "Executing RATE_BOOK SEPARateBook version 1",
-      "outputs": {
-        "result": {
-          "value": [
-            {
-              "id": "entity.APDRiskCoverage:118",
-              "basis": 1,
-              "refId": null,
-              "lineId": "entity.APDRiskPolicyLine:109",
-              "message": null,
-              "raterId": null,
-              "baseRate": 1,
-              "costCode": "premium",
-              "costType": "StdPremium",
-              "required": true,
-              "billGroup": null,
-              "periodEnd": "2026-01-09T08:01Z",
-              "exposureId": null,
-              "termAmount": 1,
-              "chargeGroup": null,
-              "overridable": false,
-              "periodStart": "2025-01-09T08:01Z",
-              "rateRoutine": null,
-              "actualAmount": 1,
-              "adjustedRate": 1,
-              "customFields": {},
-              "roundingMode": "HALF_EVEN",
-              "basisScalable": false,
-              "chargePattern": null,
-              "effectiveDate": "2025-01-09T08:01Z",
-              "roundingLevel": 10,
-              "costEntityType": null,
-              "expirationDate": "2026-01-09T08:01Z",
-              "overrideAmount": null,
-              "overrideReason": null,
-              "overrideSource": null,
-              "rateAmountType": null,
-              "standardAmount": null,
-              "overrideAdjRate": null,
-              "prorationMethod": "ProRataByDays",
-              "standardAdjRate": null,
-              "overrideBaseRate": null,
-              "standardBaseRate": null,
-              "editEffectiveDate": "2025-01-09T08:01Z",
-              "termAmountBilling": null,
-              "numDaysInRatedTerm": 365,
-              "overrideTermAmount": null,
-              "ratingJurisdiction": "CA",
-              "standardTermAmount": null,
-              "subjectToReporting": null,
-              "actualAmountBilling": null,
-              "overrideAmountBilling": null,
-              "standardAmountBilling": null,
-              "overrideTermAmountBilling": null,
-              "standardTermAmountBilling": null
-            },
-            {
-              "id": "entity.APDRiskCoverage:117",
-              "basis": 200,
-              "refId": null,
-              "lineId": "entity.APDRiskPolicyLine:109",
-              "message": null,
-              "raterId": null,
-              "baseRate": 1,
-              "costCode": "premium",
-              "costType": "StdPremium",
-              "required": true,
-              "billGroup": null,
-              "periodEnd": "2026-01-09T08:01Z",
-              "exposureId": null,
-              "termAmount": 200,
-              "chargeGroup": null,
-              "overridable": false,
-              "periodStart": "2025-01-09T08:01Z",
-              "rateRoutine": null,
-              "actualAmount": 200,
-              "adjustedRate": 1,
-              "customFields": {},
-              "roundingMode": "HALF_EVEN",
-              "basisScalable": false,
-              "chargePattern": null,
-              "effectiveDate": "2025-01-09T08:01Z",
-              "roundingLevel": 10,
-              "costEntityType": null,
-              "expirationDate": "2026-01-09T08:01Z",
-              "overrideAmount": null,
-              "overrideReason": null,
-              "overrideSource": null,
-              "rateAmountType": null,
-              "standardAmount": null,
-              "overrideAdjRate": null,
-              "prorationMethod": "ProRataByDays",
-              "standardAdjRate": null,
-              "overrideBaseRate": null,
-              "standardBaseRate": null,
-              "editEffectiveDate": "2025-01-09T08:01Z",
-              "termAmountBilling": null,
-              "numDaysInRatedTerm": 365,
-              "overrideTermAmount": null,
-              "ratingJurisdiction": "CA",
-              "standardTermAmount": null,
-              "subjectToReporting": null,
-              "actualAmountBilling": null,
-              "overrideAmountBilling": null,
-              "standardAmountBilling": null,
-              "overrideTermAmountBilling": null,
-              "standardTermAmountBilling": null
-            },
-            {
-              "id": "entity.APDRiskCoverage:115",
-              "basis": 1,
-              "refId": null,
-              "lineId": "entity.APDRiskPolicyLine:109",
-              "message": null,
-              "raterId": null,
-              "baseRate": 1,
-              "costCode": "premium",
-              "costType": "StdPremium",
-              "required": true,
-              "billGroup": null,
-              "periodEnd": "2026-01-09T08:01Z",
-              "exposureId": null,
-              "termAmount": 1,
-              "chargeGroup": null,
-              "overridable": false,
-              "periodStart": "2025-01-09T08:01Z",
-              "rateRoutine": null,
-              "actualAmount": 1,
-              "adjustedRate": 1,
-              "customFields": {},
-              "roundingMode": "HALF_EVEN",
-              "basisScalable": false,
-              "chargePattern": null,
-              "effectiveDate": "2025-01-09T08:01Z",
-              "roundingLevel": 10,
-              "costEntityType": null,
-              "expirationDate": "2026-01-09T08:01Z",
-              "overrideAmount": null,
-              "overrideReason": null,
-              "overrideSource": null,
-              "rateAmountType": null,
-              "standardAmount": null,
-              "overrideAdjRate": null,
-              "prorationMethod": "ProRataByDays",
-              "standardAdjRate": null,
-              "overrideBaseRate": null,
-              "standardBaseRate": null,
-              "editEffectiveDate": "2025-01-09T08:01Z",
-              "termAmountBilling": null,
-              "numDaysInRatedTerm": 365,
-              "overrideTermAmount": null,
-              "ratingJurisdiction": "CA",
-              "standardTermAmount": null,
-              "subjectToReporting": null,
-              "actualAmountBilling": null,
-              "overrideAmountBilling": null,
-              "standardAmountBilling": null,
-              "overrideTermAmountBilling": null,
-              "standardTermAmountBilling": null
-            },
-            {
-              "id": "entity.APDRiskCoverage:116",
-              "basis": 1,
-              "refId": null,
-              "lineId": "entity.APDRiskPolicyLine:109",
-              "message": null,
-              "raterId": null,
-              "baseRate": 1,
-              "costCode": "premium",
-              "costType": "StdPremium",
-              "required": true,
-              "billGroup": null,
-              "periodEnd": "2026-01-09T08:01Z",
-              "exposureId": null,
-              "termAmount": 1,
-              "chargeGroup": null,
-              "overridable": false,
-              "periodStart": "2025-01-09T08:01Z",
-              "rateRoutine": null,
-              "actualAmount": 1,
-              "adjustedRate": 1,
-              "customFields": {},
-              "roundingMode": "HALF_EVEN",
-              "basisScalable": false,
-              "chargePattern": null,
-              "effectiveDate": "2025-01-09T08:01Z",
-              "roundingLevel": 10,
-              "costEntityType": null,
-              "expirationDate": "2026-01-09T08:01Z",
-              "overrideAmount": null,
-              "overrideReason": null,
-              "overrideSource": null,
-              "rateAmountType": null,
-              "standardAmount": null,
-              "overrideAdjRate": null,
-              "prorationMethod": "ProRataByDays",
-              "standardAdjRate": null,
-              "overrideBaseRate": null,
-              "standardBaseRate": null,
-              "editEffectiveDate": "2025-01-09T08:01Z",
-              "termAmountBilling": null,
-              "numDaysInRatedTerm": 365,
-              "overrideTermAmount": null,
-              "ratingJurisdiction": "CA",
-              "standardTermAmount": null,
-              "subjectToReporting": null,
-              "actualAmountBilling": null,
-              "overrideAmountBilling": null,
-              "standardAmountBilling": null,
-              "overrideTermAmountBilling": null,
-              "standardTermAmountBilling": null
-            }
-          ]
-        }
-      },
-      "callerId": "f4ccffcd-a0a8-492c-9635-633b72f09807",
-      "audiences": [
-        "INTERNAL"
-      ],
-      "selectors": {
-        "jurisdictions": "CA",
-        "transactionDate": "2025-01-09T08:01:00.000Z"
-      },
-      "timestamp": "2025-01-09T18:41:35.088354635Z",
-      "contextMap": null,
-      "componentCode": "SEPARateBook",
-      "componentType": "ratebook",
-      "elapsedTimeNs": 130814047,
-      "componentVersion": "1",
-      "costSummary": {
-        "costs": [
-          {
-            "id": "entity.APDRiskCoverage:118",
-            "basis": 1,
-            "baseRate": 1,
-            "adjustedRate": 1,
-            "termAmount": 1,
-            "actualAmount": 1
-          },
-          {
-            "id": "entity.APDRiskCoverage:117",
-            "basis": 200,
-            "baseRate": 1,
-            "adjustedRate": 1,
-            "termAmount": 200,
-            "actualAmount": 200
-          },
-          {
-            "id": "entity.APDRiskCoverage:115",
-            "basis": 1,
-            "baseRate": 1,
-            "adjustedRate": 1,
-            "termAmount": 1,
-            "actualAmount": 1
-          },
-          {
-            "id": "entity.APDRiskCoverage:116",
-            "basis": 1,
-            "baseRate": 1,
-            "adjustedRate": 1,
-            "termAmount": 1,
-            "actualAmount": 1
-          }
-        ],
-        "actualAmountTotal": 203,
-        "termAmountTotal": 203
-      },
-      "children": [
-        {
-          "id": "67b5d4d5-2033-47a0-b3d1-245d6e8765a4",
-          "type": "SYSTEM",
-          "error": null,
-          "level": "DEBUG",
-          "inputs": {
-            "parameters": {
-              "DEFAULT": {
-                "sliceNumber": 0
-              }
-            }
-          },
-          "groupId": "1736448094906391339",
-          "message": "Executing RATING_VARIABLE SEPAAllCoveragesRatingVariable version 1",
-          "outputs": {
-            "result": {
-              "value": [
-                {
-                  "UALLiability": "entity.APDRiskCoverage:118"
-                },
-                {
-                  "UALMedPay": "entity.APDRiskCoverage:117"
-                },
-                {
-                  "UALUMBI": "entity.APDRiskCoverage:115"
-                },
-                {
-                  "UALUMPD": "entity.APDRiskCoverage:116"
-                }
-              ]
-            }
-          },
-          "callerId": "5d2519b8-1000-4b3e-8303-468ddc52f431",
-          "audiences": [
-            "INTERNAL"
-          ],
-          "selectors": {
-            "jurisdictions": "CA",
-            "transactionDate": "2025-01-09T08:01:00.000Z"
-          },
-          "timestamp": "2025-01-09T18:41:35.088717585Z",
-          "contextMap": null,
-          "componentCode": "SEPAAllCoveragesRatingVariable",
-          "componentType": "ratingvariable",
-          "elapsedTimeNs": 3517684,
-          "componentVersion": "1"
-        },
-        {
-          "id": "32410f7b-1d89-47b3-811a-8032e22069b4",
-          "type": "SYSTEM",
-          "error": null,
-          "level": "DEBUG",
-          "inputs": {
-            "parameters": {
-              "DEFAULT": {
-                "coverage": "UALLiability",
-                "coverageInstanceId": "entity.APDRiskCoverage:118"
-              }
-            }
-          },
-          "groupId": "1736448094906391339",
-          "message": "Executing COST_ROUTINE SEPACostRoutine version 2",
-          "outputs": {
-            "result": {
-              "value": {
-                "id": "entity.APDRiskCoverage:118",
-                "basis": 1,
-                "refId": null,
-                "lineId": "entity.APDRiskPolicyLine:109",
-                "message": null,
-                "raterId": null,
-                "baseRate": 1,
-                "costCode": "premium",
-                "costType": "StdPremium",
-                "required": true,
-                "billGroup": null,
-                "periodEnd": "2026-01-09T08:01Z",
-                "exposureId": null,
-                "termAmount": 1,
-                "chargeGroup": null,
-                "overridable": false,
-                "periodStart": "2025-01-09T08:01Z",
-                "rateRoutine": null,
-                "actualAmount": 1,
-                "adjustedRate": 1,
-                "customFields": {},
-                "roundingMode": "HALF_EVEN",
-                "basisScalable": false,
-                "chargePattern": null,
-                "effectiveDate": "2025-01-09T08:01Z",
-                "roundingLevel": 10,
-                "costEntityType": null,
-                "expirationDate": "2026-01-09T08:01Z",
-                "overrideAmount": null,
-                "overrideReason": null,
-                "overrideSource": null,
-                "rateAmountType": null,
-                "standardAmount": null,
-                "overrideAdjRate": null,
-                "prorationMethod": "ProRataByDays",
-                "standardAdjRate": null,
-                "overrideBaseRate": null,
-                "standardBaseRate": null,
-                "editEffectiveDate": "2025-01-09T08:01Z",
-                "termAmountBilling": null,
-                "numDaysInRatedTerm": 365,
-                "overrideTermAmount": null,
-                "ratingJurisdiction": "CA",
-                "standardTermAmount": null,
-                "subjectToReporting": null,
-                "actualAmountBilling": null,
-                "overrideAmountBilling": null,
-                "standardAmountBilling": null,
-                "overrideTermAmountBilling": null,
-                "standardTermAmountBilling": null
-              }
-            }
-          },
-          "callerId": "5d2519b8-1000-4b3e-8303-468ddc52f431",
-          "audiences": [
-            "INTERNAL"
-          ],
-          "selectors": {
-            "jurisdictions": "CA",
-            "transactionDate": "2025-01-09T08:01:00.000Z"
-          },
-          "timestamp": "2025-01-09T18:41:35.092782802Z",
-          "contextMap": null,
-          "componentCode": "SEPACostRoutine",
-          "componentType": "costroutine",
-          "elapsedTimeNs": 37564687,
-          "componentVersion": "2",
-          "costSummary": {
-            "costs": [
-              {
-                "id": "entity.APDRiskCoverage:118",
-                "basis": 1,
-                "baseRate": 1,
-                "adjustedRate": 1,
-                "termAmount": 1,
-                "actualAmount": 1
-              }
-            ],
-            "actualAmountTotal": 1,
-            "termAmountTotal": 1
-          },
-          "children": [
-            {
-              "id": "3f66a8be-8bf8-435c-bccc-a193beadbcf4",
-              "type": "SYSTEM",
-              "error": null,
-              "level": "DEBUG",
-              "inputs": {},
-              "groupId": "1736448094906391339",
-              "message": "Executing RATING_VARIABLE SEPADriverNoOfViolationsVariable version 1",
-              "outputs": {
-                "result": {
-                  "value": {
-                    "TotalNoOfViolations": 0
-                  }
-                }
-              },
-              "callerId": "32410f7b-1d89-47b3-811a-8032e22069b4",
-              "audiences": [
-                "INTERNAL"
-              ],
-              "selectors": {
-                "jurisdictions": "CA",
-                "transactionDate": "2025-01-09T08:01:00.000Z"
-              },
-              "timestamp": "2025-01-09T18:41:35.093313697Z",
-              "contextMap": null,
-              "componentCode": "SEPADriverNoOfViolationsVariable",
-              "componentType": "ratingvariable",
-              "elapsedTimeNs": 3388382,
-              "componentVersion": "1",
-              "children": [
-                {
-                  "id": "87c8c7d2-671b-42fc-a370-70259bd2fc8d",
-                  "type": "USER",
-                  "error": null,
-                  "level": "INFO",
-                  "inputs": null,
-                  "groupId": "1736448094906391339",
-                  "message": "Aggregating all driver violations",
-                  "outputs": null,
-                  "callerId": "3f66a8be-8bf8-435c-bccc-a193beadbcf4",
-                  "audiences": [
-                    "ALL"
-                  ],
-                  "selectors": null,
-                  "timestamp": "2025-01-09T18:41:35.093405162Z",
-                  "contextMap": {},
-                  "componentCode": null,
-                  "componentType": null,
-                  "elapsedTimeNs": null,
-                  "componentVersion": null
-                },
-                {
-                  "id": "81218e7b-5323-4071-b25e-5f3fe7a6f4dc",
-                  "type": "USER",
-                  "error": null,
-                  "level": "INFO",
-                  "inputs": null,
-                  "groupId": "1736448094906391339",
-                  "message": "Number of Violations:0for DriverId:206",
-                  "outputs": null,
-                  "callerId": "3f66a8be-8bf8-435c-bccc-a193beadbcf4",
-                  "audiences": [
-                    "ALL"
-                  ],
-                  "selectors": null,
-                  "timestamp": "2025-01-09T18:41:35.096657992Z",
-                  "contextMap": {},
-                  "componentCode": null,
-                  "componentType": null,
-                  "elapsedTimeNs": null,
-                  "componentVersion": null
-                }
-              ]
-            },
-            {
-              "id": "ece26eac-24df-44d5-b3d4-e8563703ea1f",
-              "type": "SYSTEM",
-              "error": null,
-              "level": "DEBUG",
-              "inputs": {
-                "parameters": {
-                  "values": [
-                    "UALLiability"
-                  ]
-                }
-              },
-              "groupId": "1736448094906391339",
-              "message": "Executing RATE_TABLE SEPARateTable version 1",
-              "outputs": {
-                "result": {
-                  "basePremium": {
-                    "type": "DECIMAL",
-                    "value": 1
-                  }
-                }
-              },
-              "callerId": "32410f7b-1d89-47b3-811a-8032e22069b4",
-              "audiences": [
-                "INTERNAL"
-              ],
-              "selectors": {
-                "jurisdictions": "CA",
-                "transactionDate": "2025-01-09T08:01:00.000Z"
-              },
-              "timestamp": "2025-01-09T18:41:35.097538766Z",
-              "contextMap": null,
-              "componentCode": "SEPARateTable",
-              "componentType": "ratetable",
-              "elapsedTimeNs": 32552957,
-              "componentVersion": "1"
-            }
-          ]
-        },
-        {
-          "id": "ab5bdf46-e49b-4801-b698-c73b1f76b57c",
-          "type": "SYSTEM",
-          "error": null,
-          "level": "DEBUG",
-          "inputs": {
-            "parameters": {
-              "DEFAULT": {
-                "coverage": "UALMedPay",
-                "coverageInstanceId": "entity.APDRiskCoverage:117"
-              }
-            }
-          },
-          "groupId": "1736448094906391339",
-          "message": "Executing COST_ROUTINE SEPACostRoutine version 2",
-          "outputs": {
-            "result": {
-              "value": {
-                "id": "entity.APDRiskCoverage:117",
-                "basis": 200,
-                "refId": null,
-                "lineId": "entity.APDRiskPolicyLine:109",
-                "message": null,
-                "raterId": null,
-                "baseRate": 1,
-                "costCode": "premium",
-                "costType": "StdPremium",
-                "required": true,
-                "billGroup": null,
-                "periodEnd": "2026-01-09T08:01Z",
-                "exposureId": null,
-                "termAmount": 200,
-                "chargeGroup": null,
-                "overridable": false,
-                "periodStart": "2025-01-09T08:01Z",
-                "rateRoutine": null,
-                "actualAmount": 200,
-                "adjustedRate": 1,
-                "customFields": {},
-                "roundingMode": "HALF_EVEN",
-                "basisScalable": false,
-                "chargePattern": null,
-                "effectiveDate": "2025-01-09T08:01Z",
-                "roundingLevel": 10,
-                "costEntityType": null,
-                "expirationDate": "2026-01-09T08:01Z",
-                "overrideAmount": null,
-                "overrideReason": null,
-                "overrideSource": null,
-                "rateAmountType": null,
-                "standardAmount": null,
-                "overrideAdjRate": null,
-                "prorationMethod": "ProRataByDays",
-                "standardAdjRate": null,
-                "overrideBaseRate": null,
-                "standardBaseRate": null,
-                "editEffectiveDate": "2025-01-09T08:01Z",
-                "termAmountBilling": null,
-                "numDaysInRatedTerm": 365,
-                "overrideTermAmount": null,
-                "ratingJurisdiction": "CA",
-                "standardTermAmount": null,
-                "subjectToReporting": null,
-                "actualAmountBilling": null,
-                "overrideAmountBilling": null,
-                "standardAmountBilling": null,
-                "overrideTermAmountBilling": null,
-                "standardTermAmountBilling": null
-              }
-            }
-          },
-          "callerId": "5d2519b8-1000-4b3e-8303-468ddc52f431",
-          "audiences": [
-            "INTERNAL"
-          ],
-          "selectors": {
-            "jurisdictions": "CA",
-            "transactionDate": "2025-01-09T08:01:00.000Z"
-          },
-          "timestamp": "2025-01-09T18:41:35.1310302Z",
-          "contextMap": null,
-          "componentCode": "SEPACostRoutine",
-          "componentType": "costroutine",
-          "elapsedTimeNs": 29834040,
-          "componentVersion": "2",
-          "costSummary": {
-            "costs": [
-              {
-                "id": "entity.APDRiskCoverage:117",
-                "basis": 200,
-                "baseRate": 1,
-                "adjustedRate": 1,
-                "termAmount": 200,
-                "actualAmount": 200
-              }
-            ],
-            "actualAmountTotal": 200,
-            "termAmountTotal": 200
-          },
-          "children": [
-            {
-              "id": "473b5278-b76a-4736-94af-7d4773c3ba26",
-              "type": "SYSTEM",
-              "error": null,
-              "level": "DEBUG",
-              "inputs": {},
-              "groupId": "1736448094906391339",
-              "message": "Executing RATING_VARIABLE SEPADriverNoOfViolationsVariable version 1",
-              "outputs": {
-                "result": {
-                  "value": {
-                    "TotalNoOfViolations": 0
-                  }
-                }
-              },
-              "callerId": "ab5bdf46-e49b-4801-b698-c73b1f76b57c",
-              "audiences": [
-                "INTERNAL"
-              ],
-              "selectors": {
-                "jurisdictions": "CA",
-                "transactionDate": "2025-01-09T08:01:00.000Z"
-              },
-              "timestamp": "2025-01-09T18:41:35.131431534Z",
-              "contextMap": null,
-              "componentCode": "SEPADriverNoOfViolationsVariable",
-              "componentType": "ratingvariable",
-              "elapsedTimeNs": 363625,
-              "componentVersion": "1",
-              "children": [
-                {
-                  "id": "2794cc02-9cf6-402e-8509-35d2efdb88f0",
-                  "type": "USER",
-                  "error": null,
-                  "level": "INFO",
-                  "inputs": null,
-                  "groupId": "1736448094906391339",
-                  "message": "Aggregating all driver violations",
-                  "outputs": null,
-                  "callerId": "473b5278-b76a-4736-94af-7d4773c3ba26",
-                  "audiences": [
-                    "ALL"
-                  ],
-                  "selectors": null,
-                  "timestamp": "2025-01-09T18:41:35.131499011Z",
-                  "contextMap": {},
-                  "componentCode": null,
-                  "componentType": null,
-                  "elapsedTimeNs": null,
-                  "componentVersion": null
-                },
-                {
-                  "id": "71fede60-7de5-4f95-8573-617501b3b8be",
-                  "type": "USER",
-                  "error": null,
-                  "level": "INFO",
-                  "inputs": null,
-                  "groupId": "1736448094906391339",
-                  "message": "Number of Violations:0for DriverId:206",
-                  "outputs": null,
-                  "callerId": "473b5278-b76a-4736-94af-7d4773c3ba26",
-                  "audiences": [
-                    "ALL"
-                  ],
-                  "selectors": null,
-                  "timestamp": "2025-01-09T18:41:35.13177019Z",
-                  "contextMap": {},
-                  "componentCode": null,
-                  "componentType": null,
-                  "elapsedTimeNs": null,
-                  "componentVersion": null
-                }
-              ]
-            },
-            {
-              "id": "6cd4e868-42d7-4885-acc4-a8ad93c4724e",
-              "type": "SYSTEM",
-              "error": null,
-              "level": "DEBUG",
-              "inputs": {
-                "parameters": {
-                  "values": [
-                    "UALMedPay"
-                  ]
-                }
-              },
-              "groupId": "1736448094906391339",
-              "message": "Executing RATE_TABLE SEPARateTable version 1",
-              "outputs": {
-                "result": {
-                  "basePremium": {
-                    "type": "DECIMAL",
-                    "value": 200
-                  }
-                }
-              },
-              "callerId": "ab5bdf46-e49b-4801-b698-c73b1f76b57c",
-              "audiences": [
-                "INTERNAL"
-              ],
-              "selectors": {
-                "jurisdictions": "CA",
-                "transactionDate": "2025-01-09T08:01:00.000Z"
-              },
-              "timestamp": "2025-01-09T18:41:35.132113655Z",
-              "contextMap": null,
-              "componentCode": "SEPARateTable",
-              "componentType": "ratetable",
-              "elapsedTimeNs": 28608935,
-              "componentVersion": "1"
-            }
-          ]
-        },
-        {
-          "id": "6b13553e-63b7-4501-b182-6ce2269a7c4e",
-          "type": "SYSTEM",
-          "error": null,
-          "level": "DEBUG",
-          "inputs": {
-            "parameters": {
-              "DEFAULT": {
-                "coverage": "UALUMBI",
-                "coverageInstanceId": "entity.APDRiskCoverage:115"
-              }
-            }
-          },
-          "groupId": "1736448094906391339",
-          "message": "Executing COST_ROUTINE SEPACostRoutine version 2",
-          "outputs": {
-            "result": {
-              "value": {
-                "id": "entity.APDRiskCoverage:115",
-                "basis": 1,
-                "refId": null,
-                "lineId": "entity.APDRiskPolicyLine:109",
-                "message": null,
-                "raterId": null,
-                "baseRate": 1,
-                "costCode": "premium",
-                "costType": "StdPremium",
-                "required": true,
-                "billGroup": null,
-                "periodEnd": "2026-01-09T08:01Z",
-                "exposureId": null,
-                "termAmount": 1,
-                "chargeGroup": null,
-                "overridable": false,
-                "periodStart": "2025-01-09T08:01Z",
-                "rateRoutine": null,
-                "actualAmount": 1,
-                "adjustedRate": 1,
-                "customFields": {},
-                "roundingMode": "HALF_EVEN",
-                "basisScalable": false,
-                "chargePattern": null,
-                "effectiveDate": "2025-01-09T08:01Z",
-                "roundingLevel": 10,
-                "costEntityType": null,
-                "expirationDate": "2026-01-09T08:01Z",
-                "overrideAmount": null,
-                "overrideReason": null,
-                "overrideSource": null,
-                "rateAmountType": null,
-                "standardAmount": null,
-                "overrideAdjRate": null,
-                "prorationMethod": "ProRataByDays",
-                "standardAdjRate": null,
-                "overrideBaseRate": null,
-                "standardBaseRate": null,
-                "editEffectiveDate": "2025-01-09T08:01Z",
-                "termAmountBilling": null,
-                "numDaysInRatedTerm": 365,
-                "overrideTermAmount": null,
-                "ratingJurisdiction": "CA",
-                "standardTermAmount": null,
-                "subjectToReporting": null,
-                "actualAmountBilling": null,
-                "overrideAmountBilling": null,
-                "standardAmountBilling": null,
-                "overrideTermAmountBilling": null,
-                "standardTermAmountBilling": null
-              }
-            }
-          },
-          "callerId": "5d2519b8-1000-4b3e-8303-468ddc52f431",
-          "audiences": [
-            "INTERNAL"
-          ],
-          "selectors": {
-            "jurisdictions": "CA",
-            "transactionDate": "2025-01-09T08:01:00.000Z"
-          },
-          "timestamp": "2025-01-09T18:41:35.16095265Z",
-          "contextMap": null,
-          "componentCode": "SEPACostRoutine",
-          "componentType": "costroutine",
-          "elapsedTimeNs": 27736423,
-          "componentVersion": "2",
-          "costSummary": {
-            "costs": [
-              {
-                "id": "entity.APDRiskCoverage:115",
-                "basis": 1,
-                "baseRate": 1,
-                "adjustedRate": 1,
-                "termAmount": 1,
-                "actualAmount": 1
-              }
-            ],
-            "actualAmountTotal": 1,
-            "termAmountTotal": 1
-          },
-          "children": [
-            {
-              "id": "2a2e89b3-33e6-426e-a56c-cc2a18cad5e7",
-              "type": "SYSTEM",
-              "error": null,
-              "level": "DEBUG",
-              "inputs": {},
-              "groupId": "1736448094906391339",
-              "message": "Executing RATING_VARIABLE SEPADriverNoOfViolationsVariable version 1",
-              "outputs": {
-                "result": {
-                  "value": {
-                    "TotalNoOfViolations": 0
-                  }
-                }
-              },
-              "callerId": "6b13553e-63b7-4501-b182-6ce2269a7c4e",
-              "audiences": [
-                "INTERNAL"
-              ],
-              "selectors": {
-                "jurisdictions": "CA",
-                "transactionDate": "2025-01-09T08:01:00.000Z"
-              },
-              "timestamp": "2025-01-09T18:41:35.16119901Z",
-              "contextMap": null,
-              "componentCode": "SEPADriverNoOfViolationsVariable",
-              "componentType": "ratingvariable",
-              "elapsedTimeNs": 287929,
-              "componentVersion": "1",
-              "children": [
-                {
-                  "id": "45253e69-8d08-436b-af16-471fdeff3e14",
-                  "type": "USER",
-                  "error": null,
-                  "level": "INFO",
-                  "inputs": null,
-                  "groupId": "1736448094906391339",
-                  "message": "Aggregating all driver violations",
-                  "outputs": null,
-                  "callerId": "2a2e89b3-33e6-426e-a56c-cc2a18cad5e7",
-                  "audiences": [
-                    "ALL"
-                  ],
-                  "selectors": null,
-                  "timestamp": "2025-01-09T18:41:35.161257001Z",
-                  "contextMap": {},
-                  "componentCode": null,
-                  "componentType": null,
-                  "elapsedTimeNs": null,
-                  "componentVersion": null
-                },
-                {
-                  "id": "b590b17d-38f5-438c-bda5-01089066b82f",
-                  "type": "USER",
-                  "error": null,
-                  "level": "INFO",
-                  "inputs": null,
-                  "groupId": "1736448094906391339",
-                  "message": "Number of Violations:0for DriverId:206",
-                  "outputs": null,
-                  "callerId": "2a2e89b3-33e6-426e-a56c-cc2a18cad5e7",
-                  "audiences": [
-                    "ALL"
-                  ],
-                  "selectors": null,
-                  "timestamp": "2025-01-09T18:41:35.161462565Z",
-                  "contextMap": {},
-                  "componentCode": null,
-                  "componentType": null,
-                  "elapsedTimeNs": null,
-                  "componentVersion": null
-                }
-              ]
-            },
-            {
-              "id": "9005eee9-ed20-4997-b779-7dd70131c71c",
-              "type": "SYSTEM",
-              "error": null,
-              "level": "DEBUG",
-              "inputs": {
-                "parameters": {
-                  "values": [
-                    "UALUMBI"
-                  ]
-                }
-              },
-              "groupId": "1736448094906391339",
-              "message": "Executing RATE_TABLE SEPARateTable version 1",
-              "outputs": {
-                "result": {
-                  "basePremium": {
-                    "type": "DECIMAL",
-                    "value": 1
-                  }
-                }
-              },
-              "callerId": "6b13553e-63b7-4501-b182-6ce2269a7c4e",
-              "audiences": [
-                "INTERNAL"
-              ],
-              "selectors": {
-                "jurisdictions": "CA",
-                "transactionDate": "2025-01-09T08:01:00.000Z"
-              },
-              "timestamp": "2025-01-09T18:41:35.161608001Z",
-              "contextMap": null,
-              "componentCode": "SEPARateTable",
-              "componentType": "ratetable",
-              "elapsedTimeNs": 26953757,
-              "componentVersion": "1"
-            }
-          ]
-        },
-        {
-          "id": "30a1cfe7-b464-4df5-afb0-b4e4e2068791",
-          "type": "SYSTEM",
-          "error": null,
-          "level": "DEBUG",
-          "inputs": {
-            "parameters": {
-              "DEFAULT": {
-                "coverage": "UALUMPD",
-                "coverageInstanceId": "entity.APDRiskCoverage:116"
-              }
-            }
-          },
-          "groupId": "1736448094906391339",
-          "message": "Executing COST_ROUTINE SEPACostRoutine version 2",
-          "outputs": {
-            "result": {
-              "value": {
-                "id": "entity.APDRiskCoverage:116",
-                "basis": 1,
-                "refId": null,
-                "lineId": "entity.APDRiskPolicyLine:109",
-                "message": null,
-                "raterId": null,
-                "baseRate": 1,
-                "costCode": "premium",
-                "costType": "StdPremium",
-                "required": true,
-                "billGroup": null,
-                "periodEnd": "2026-01-09T08:01Z",
-                "exposureId": null,
-                "termAmount": 1,
-                "chargeGroup": null,
-                "overridable": false,
-                "periodStart": "2025-01-09T08:01Z",
-                "rateRoutine": null,
-                "actualAmount": 1,
-                "adjustedRate": 1,
-                "customFields": {},
-                "roundingMode": "HALF_EVEN",
-                "basisScalable": false,
-                "chargePattern": null,
-                "effectiveDate": "2025-01-09T08:01Z",
-                "roundingLevel": 10,
-                "costEntityType": null,
-                "expirationDate": "2026-01-09T08:01Z",
-                "overrideAmount": null,
-                "overrideReason": null,
-                "overrideSource": null,
-                "rateAmountType": null,
-                "standardAmount": null,
-                "overrideAdjRate": null,
-                "prorationMethod": "ProRataByDays",
-                "standardAdjRate": null,
-                "overrideBaseRate": null,
-                "standardBaseRate": null,
-                "editEffectiveDate": "2025-01-09T08:01Z",
-                "termAmountBilling": null,
-                "numDaysInRatedTerm": 365,
-                "overrideTermAmount": null,
-                "ratingJurisdiction": "CA",
-                "standardTermAmount": null,
-                "subjectToReporting": null,
-                "actualAmountBilling": null,
-                "overrideAmountBilling": null,
-                "standardAmountBilling": null,
-                "overrideTermAmountBilling": null,
-                "standardTermAmountBilling": null
-              }
-            }
-          },
-          "callerId": "5d2519b8-1000-4b3e-8303-468ddc52f431",
-          "audiences": [
-            "INTERNAL"
-          ],
-          "selectors": {
-            "jurisdictions": "CA",
-            "transactionDate": "2025-01-09T08:01:00.000Z"
-          },
-          "timestamp": "2025-01-09T18:41:35.188792832Z",
-          "contextMap": null,
-          "componentCode": "SEPACostRoutine",
-          "componentType": "costroutine",
-          "elapsedTimeNs": 30243496,
-          "componentVersion": "2",
-          "costSummary": {
-            "costs": [
-              {
-                "id": "entity.APDRiskCoverage:116",
-                "basis": 1,
-                "baseRate": 1,
-                "adjustedRate": 1,
-                "termAmount": 1,
-                "actualAmount": 1
-              }
-            ],
-            "actualAmountTotal": 1,
-            "termAmountTotal": 1
-          },
-          "children": [
-            {
-              "id": "b1b9dc65-9117-496a-bd8a-9d597bdc5941",
-              "type": "SYSTEM",
-              "error": null,
-              "level": "DEBUG",
-              "inputs": {},
-              "groupId": "1736448094906391339",
-              "message": "Executing RATING_VARIABLE SEPADriverNoOfViolationsVariable version 1",
-              "outputs": {
-                "result": {
-                  "value": {
-                    "TotalNoOfViolations": 0
-                  }
-                }
-              },
-              "callerId": "30a1cfe7-b464-4df5-afb0-b4e4e2068791",
-              "audiences": [
-                "INTERNAL"
-              ],
-              "selectors": {
-                "jurisdictions": "CA",
-                "transactionDate": "2025-01-09T08:01:00.000Z"
-              },
-              "timestamp": "2025-01-09T18:41:35.18901177Z",
-              "contextMap": null,
-              "componentCode": "SEPADriverNoOfViolationsVariable",
-              "componentType": "ratingvariable",
-              "elapsedTimeNs": 255697,
-              "componentVersion": "1",
-              "children": [
-                {
-                  "id": "b61d0614-93a3-4f37-bc6a-6fb7169297ae",
-                  "type": "USER",
-                  "error": null,
-                  "level": "INFO",
-                  "inputs": null,
-                  "groupId": "1736448094906391339",
-                  "message": "Aggregating all driver violations",
-                  "outputs": null,
-                  "callerId": "b1b9dc65-9117-496a-bd8a-9d597bdc5941",
-                  "audiences": [
-                    "ALL"
-                  ],
-                  "selectors": null,
-                  "timestamp": "2025-01-09T18:41:35.189062698Z",
-                  "contextMap": {},
-                  "componentCode": null,
-                  "componentType": null,
-                  "elapsedTimeNs": null,
-                  "componentVersion": null
-                },
-                {
-                  "id": "79202c72-f8b3-4f18-9dc5-de5f04091642",
-                  "type": "USER",
-                  "error": null,
-                  "level": "INFO",
-                  "inputs": null,
-                  "groupId": "1736448094906391339",
-                  "message": "Number of Violations:0for DriverId:206",
-                  "outputs": null,
-                  "callerId": "b1b9dc65-9117-496a-bd8a-9d597bdc5941",
-                  "audiences": [
-                    "ALL"
-                  ],
-                  "selectors": null,
-                  "timestamp": "2025-01-09T18:41:35.189254949Z",
-                  "contextMap": {},
-                  "componentCode": null,
-                  "componentType": null,
-                  "elapsedTimeNs": null,
-                  "componentVersion": null
-                }
-              ]
-            },
-            {
-              "id": "f38e73d6-c9ac-461c-9d15-9b45534aa8fc",
-              "type": "SYSTEM",
-              "error": null,
-              "level": "DEBUG",
-              "inputs": {
-                "parameters": {
-                  "values": [
-                    "UALUMPD"
-                  ]
-                }
-              },
-              "groupId": "1736448094906391339",
-              "message": "Executing RATE_TABLE SEPARateTable version 1",
-              "outputs": {
-                "result": {
-                  "basePremium": {
-                    "type": "DECIMAL",
-                    "value": 1
-                  }
-                }
-              },
-              "callerId": "30a1cfe7-b464-4df5-afb0-b4e4e2068791",
-              "audiences": [
-                "INTERNAL"
-              ],
-              "selectors": {
-                "jurisdictions": "CA",
-                "transactionDate": "2025-01-09T08:01:00.000Z"
-              },
-              "timestamp": "2025-01-09T18:41:35.189395465Z",
-              "contextMap": null,
-              "componentCode": "SEPARateTable",
-              "componentType": "ratetable",
-              "elapsedTimeNs": 29461239,
-              "componentVersion": "1"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    ]
 }
