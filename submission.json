@@ -1,0 +1,1489 @@
+{
+  "id": "f4ccffcd-a0a8-492c-9635-633b72f09807",
+  "type": "SYSTEM",
+  "error": null,
+  "level": "DEBUG",
+  "inputs": {},
+  "groupId": "1736448094906391339",
+  "message": "Executing RATE_PLAN separateplan version 1",
+  "outputs": {
+    "result": {
+      "value": {
+        "UALPersonalAutoLine": [
+          {
+            "id": "entity.APDRiskCoverage:117",
+            "basis": 200,
+            "refId": null,
+            "lineId": "entity.APDRiskPolicyLine:109",
+            "message": null,
+            "raterId": null,
+            "baseRate": 1,
+            "costCode": "premium",
+            "costType": "StdPremium",
+            "required": true,
+            "billGroup": null,
+            "periodEnd": "2026-01-09T08:01Z",
+            "exposureId": null,
+            "termAmount": 200,
+            "chargeGroup": null,
+            "overridable": false,
+            "periodStart": "2025-01-09T08:01Z",
+            "rateRoutine": null,
+            "actualAmount": 200,
+            "adjustedRate": 1,
+            "customFields": {},
+            "roundingMode": "HALF_EVEN",
+            "basisScalable": false,
+            "chargePattern": null,
+            "effectiveDate": "2025-01-09T08:01Z",
+            "roundingLevel": 10,
+            "costEntityType": null,
+            "expirationDate": "2026-01-09T08:01Z",
+            "overrideAmount": null,
+            "overrideReason": null,
+            "overrideSource": null,
+            "rateAmountType": null,
+            "standardAmount": null,
+            "overrideAdjRate": null,
+            "prorationMethod": "ProRataByDays",
+            "standardAdjRate": null,
+            "overrideBaseRate": null,
+            "standardBaseRate": null,
+            "editEffectiveDate": "2025-01-09T08:01Z",
+            "termAmountBilling": null,
+            "numDaysInRatedTerm": 365,
+            "overrideTermAmount": null,
+            "ratingJurisdiction": "CA",
+            "standardTermAmount": null,
+            "subjectToReporting": null,
+            "actualAmountBilling": null,
+            "overrideAmountBilling": null,
+            "standardAmountBilling": null,
+            "overrideTermAmountBilling": null,
+            "standardTermAmountBilling": null
+          },
+          {
+            "id": "entity.APDRiskCoverage:118",
+            "basis": 1,
+            "refId": null,
+            "lineId": "entity.APDRiskPolicyLine:109",
+            "message": null,
+            "raterId": null,
+            "baseRate": 1,
+            "costCode": "premium",
+            "costType": "StdPremium",
+            "required": true,
+            "billGroup": null,
+            "periodEnd": "2026-01-09T08:01Z",
+            "exposureId": null,
+            "termAmount": 1,
+            "chargeGroup": null,
+            "overridable": false,
+            "periodStart": "2025-01-09T08:01Z",
+            "rateRoutine": null,
+            "actualAmount": 1,
+            "adjustedRate": 1,
+            "customFields": {},
+            "roundingMode": "HALF_EVEN",
+            "basisScalable": false,
+            "chargePattern": null,
+            "effectiveDate": "2025-01-09T08:01Z",
+            "roundingLevel": 10,
+            "costEntityType": null,
+            "expirationDate": "2026-01-09T08:01Z",
+            "overrideAmount": null,
+            "overrideReason": null,
+            "overrideSource": null,
+            "rateAmountType": null,
+            "standardAmount": null,
+            "overrideAdjRate": null,
+            "prorationMethod": "ProRataByDays",
+            "standardAdjRate": null,
+            "overrideBaseRate": null,
+            "standardBaseRate": null,
+            "editEffectiveDate": "2025-01-09T08:01Z",
+            "termAmountBilling": null,
+            "numDaysInRatedTerm": 365,
+            "overrideTermAmount": null,
+            "ratingJurisdiction": "CA",
+            "standardTermAmount": null,
+            "subjectToReporting": null,
+            "actualAmountBilling": null,
+            "overrideAmountBilling": null,
+            "standardAmountBilling": null,
+            "overrideTermAmountBilling": null,
+            "standardTermAmountBilling": null
+          },
+          {
+            "id": "entity.APDRiskCoverage:115",
+            "basis": 1,
+            "refId": null,
+            "lineId": "entity.APDRiskPolicyLine:109",
+            "message": null,
+            "raterId": null,
+            "baseRate": 1,
+            "costCode": "premium",
+            "costType": "StdPremium",
+            "required": true,
+            "billGroup": null,
+            "periodEnd": "2026-01-09T08:01Z",
+            "exposureId": null,
+            "termAmount": 1,
+            "chargeGroup": null,
+            "overridable": false,
+            "periodStart": "2025-01-09T08:01Z",
+            "rateRoutine": null,
+            "actualAmount": 1,
+            "adjustedRate": 1,
+            "customFields": {},
+            "roundingMode": "HALF_EVEN",
+            "basisScalable": false,
+            "chargePattern": null,
+            "effectiveDate": "2025-01-09T08:01Z",
+            "roundingLevel": 10,
+            "costEntityType": null,
+            "expirationDate": "2026-01-09T08:01Z",
+            "overrideAmount": null,
+            "overrideReason": null,
+            "overrideSource": null,
+            "rateAmountType": null,
+            "standardAmount": null,
+            "overrideAdjRate": null,
+            "prorationMethod": "ProRataByDays",
+            "standardAdjRate": null,
+            "overrideBaseRate": null,
+            "standardBaseRate": null,
+            "editEffectiveDate": "2025-01-09T08:01Z",
+            "termAmountBilling": null,
+            "numDaysInRatedTerm": 365,
+            "overrideTermAmount": null,
+            "ratingJurisdiction": "CA",
+            "standardTermAmount": null,
+            "subjectToReporting": null,
+            "actualAmountBilling": null,
+            "overrideAmountBilling": null,
+            "standardAmountBilling": null,
+            "overrideTermAmountBilling": null,
+            "standardTermAmountBilling": null
+          },
+          {
+            "id": "entity.APDRiskCoverage:116",
+            "basis": 1,
+            "refId": null,
+            "lineId": "entity.APDRiskPolicyLine:109",
+            "message": null,
+            "raterId": null,
+            "baseRate": 1,
+            "costCode": "premium",
+            "costType": "StdPremium",
+            "required": true,
+            "billGroup": null,
+            "periodEnd": "2026-01-09T08:01Z",
+            "exposureId": null,
+            "termAmount": 1,
+            "chargeGroup": null,
+            "overridable": false,
+            "periodStart": "2025-01-09T08:01Z",
+            "rateRoutine": null,
+            "actualAmount": 1,
+            "adjustedRate": 1,
+            "customFields": {},
+            "roundingMode": "HALF_EVEN",
+            "basisScalable": false,
+            "chargePattern": null,
+            "effectiveDate": "2025-01-09T08:01Z",
+            "roundingLevel": 10,
+            "costEntityType": null,
+            "expirationDate": "2026-01-09T08:01Z",
+            "overrideAmount": null,
+            "overrideReason": null,
+            "overrideSource": null,
+            "rateAmountType": null,
+            "standardAmount": null,
+            "overrideAdjRate": null,
+            "prorationMethod": "ProRataByDays",
+            "standardAdjRate": null,
+            "overrideBaseRate": null,
+            "standardBaseRate": null,
+            "editEffectiveDate": "2025-01-09T08:01Z",
+            "termAmountBilling": null,
+            "numDaysInRatedTerm": 365,
+            "overrideTermAmount": null,
+            "ratingJurisdiction": "CA",
+            "standardTermAmount": null,
+            "subjectToReporting": null,
+            "actualAmountBilling": null,
+            "overrideAmountBilling": null,
+            "standardAmountBilling": null,
+            "overrideTermAmountBilling": null,
+            "standardTermAmountBilling": null
+          }
+        ]
+      }
+    }
+  },
+  "callerId": null,
+  "audiences": [
+    "INTERNAL"
+  ],
+  "selectors": {
+    "jurisdictions": "CA",
+    "transactionDate": "2025-01-09T08:01:00.000Z"
+  },
+  "timestamp": "2025-01-09T18:41:35.081735606Z",
+  "contextMap": null,
+  "componentCode": "separateplan",
+  "componentType": "rateplan",
+  "elapsedTimeNs": 139634945,
+  "componentVersion": "1",
+  "costSummary": {
+    "costs": [
+      {
+        "id": "entity.APDRiskCoverage:117",
+        "basis": 200,
+        "baseRate": 1,
+        "adjustedRate": 1,
+        "termAmount": 200,
+        "actualAmount": 200
+      },
+      {
+        "id": "entity.APDRiskCoverage:118",
+        "basis": 1,
+        "baseRate": 1,
+        "adjustedRate": 1,
+        "termAmount": 1,
+        "actualAmount": 1
+      },
+      {
+        "id": "entity.APDRiskCoverage:115",
+        "basis": 1,
+        "baseRate": 1,
+        "adjustedRate": 1,
+        "termAmount": 1,
+        "actualAmount": 1
+      },
+      {
+        "id": "entity.APDRiskCoverage:116",
+        "basis": 1,
+        "baseRate": 1,
+        "adjustedRate": 1,
+        "termAmount": 1,
+        "actualAmount": 1
+      }
+    ],
+    "actualAmountTotal": 203,
+    "termAmountTotal": 203
+  },
+  "children": [
+    {
+      "id": "6225ab2f-8725-4e3e-a97a-19e04c8a828a",
+      "type": "SYSTEM",
+      "error": null,
+      "level": "DEBUG",
+      "inputs": {},
+      "groupId": "1736448094906391339",
+      "message": "Executing RATING_VARIABLE SEPAInitialGlobalVariableRatingVariable version 1",
+      "outputs": {
+        "result": {
+          "value": null
+        }
+      },
+      "callerId": "f4ccffcd-a0a8-492c-9635-633b72f09807",
+      "audiences": [
+        "INTERNAL"
+      ],
+      "selectors": {
+        "jurisdictions": "CA",
+        "transactionDate": "2025-01-09T08:01:00.000Z"
+      },
+      "timestamp": "2025-01-09T18:41:35.082244561Z",
+      "contextMap": null,
+      "componentCode": "SEPAInitialGlobalVariableRatingVariable",
+      "componentType": "ratingvariable",
+      "elapsedTimeNs": 5589664,
+      "componentVersion": "1"
+    },
+    {
+      "id": "5d2519b8-1000-4b3e-8303-468ddc52f431",
+      "type": "SYSTEM",
+      "error": null,
+      "level": "DEBUG",
+      "inputs": {
+        "parameters": {
+          "DEFAULT": {
+            "sliceNumber": 0
+          }
+        }
+      },
+      "groupId": "1736448094906391339",
+      "message": "Executing RATE_BOOK SEPARateBook version 1",
+      "outputs": {
+        "result": {
+          "value": [
+            {
+              "id": "entity.APDRiskCoverage:118",
+              "basis": 1,
+              "refId": null,
+              "lineId": "entity.APDRiskPolicyLine:109",
+              "message": null,
+              "raterId": null,
+              "baseRate": 1,
+              "costCode": "premium",
+              "costType": "StdPremium",
+              "required": true,
+              "billGroup": null,
+              "periodEnd": "2026-01-09T08:01Z",
+              "exposureId": null,
+              "termAmount": 1,
+              "chargeGroup": null,
+              "overridable": false,
+              "periodStart": "2025-01-09T08:01Z",
+              "rateRoutine": null,
+              "actualAmount": 1,
+              "adjustedRate": 1,
+              "customFields": {},
+              "roundingMode": "HALF_EVEN",
+              "basisScalable": false,
+              "chargePattern": null,
+              "effectiveDate": "2025-01-09T08:01Z",
+              "roundingLevel": 10,
+              "costEntityType": null,
+              "expirationDate": "2026-01-09T08:01Z",
+              "overrideAmount": null,
+              "overrideReason": null,
+              "overrideSource": null,
+              "rateAmountType": null,
+              "standardAmount": null,
+              "overrideAdjRate": null,
+              "prorationMethod": "ProRataByDays",
+              "standardAdjRate": null,
+              "overrideBaseRate": null,
+              "standardBaseRate": null,
+              "editEffectiveDate": "2025-01-09T08:01Z",
+              "termAmountBilling": null,
+              "numDaysInRatedTerm": 365,
+              "overrideTermAmount": null,
+              "ratingJurisdiction": "CA",
+              "standardTermAmount": null,
+              "subjectToReporting": null,
+              "actualAmountBilling": null,
+              "overrideAmountBilling": null,
+              "standardAmountBilling": null,
+              "overrideTermAmountBilling": null,
+              "standardTermAmountBilling": null
+            },
+            {
+              "id": "entity.APDRiskCoverage:117",
+              "basis": 200,
+              "refId": null,
+              "lineId": "entity.APDRiskPolicyLine:109",
+              "message": null,
+              "raterId": null,
+              "baseRate": 1,
+              "costCode": "premium",
+              "costType": "StdPremium",
+              "required": true,
+              "billGroup": null,
+              "periodEnd": "2026-01-09T08:01Z",
+              "exposureId": null,
+              "termAmount": 200,
+              "chargeGroup": null,
+              "overridable": false,
+              "periodStart": "2025-01-09T08:01Z",
+              "rateRoutine": null,
+              "actualAmount": 200,
+              "adjustedRate": 1,
+              "customFields": {},
+              "roundingMode": "HALF_EVEN",
+              "basisScalable": false,
+              "chargePattern": null,
+              "effectiveDate": "2025-01-09T08:01Z",
+              "roundingLevel": 10,
+              "costEntityType": null,
+              "expirationDate": "2026-01-09T08:01Z",
+              "overrideAmount": null,
+              "overrideReason": null,
+              "overrideSource": null,
+              "rateAmountType": null,
+              "standardAmount": null,
+              "overrideAdjRate": null,
+              "prorationMethod": "ProRataByDays",
+              "standardAdjRate": null,
+              "overrideBaseRate": null,
+              "standardBaseRate": null,
+              "editEffectiveDate": "2025-01-09T08:01Z",
+              "termAmountBilling": null,
+              "numDaysInRatedTerm": 365,
+              "overrideTermAmount": null,
+              "ratingJurisdiction": "CA",
+              "standardTermAmount": null,
+              "subjectToReporting": null,
+              "actualAmountBilling": null,
+              "overrideAmountBilling": null,
+              "standardAmountBilling": null,
+              "overrideTermAmountBilling": null,
+              "standardTermAmountBilling": null
+            },
+            {
+              "id": "entity.APDRiskCoverage:115",
+              "basis": 1,
+              "refId": null,
+              "lineId": "entity.APDRiskPolicyLine:109",
+              "message": null,
+              "raterId": null,
+              "baseRate": 1,
+              "costCode": "premium",
+              "costType": "StdPremium",
+              "required": true,
+              "billGroup": null,
+              "periodEnd": "2026-01-09T08:01Z",
+              "exposureId": null,
+              "termAmount": 1,
+              "chargeGroup": null,
+              "overridable": false,
+              "periodStart": "2025-01-09T08:01Z",
+              "rateRoutine": null,
+              "actualAmount": 1,
+              "adjustedRate": 1,
+              "customFields": {},
+              "roundingMode": "HALF_EVEN",
+              "basisScalable": false,
+              "chargePattern": null,
+              "effectiveDate": "2025-01-09T08:01Z",
+              "roundingLevel": 10,
+              "costEntityType": null,
+              "expirationDate": "2026-01-09T08:01Z",
+              "overrideAmount": null,
+              "overrideReason": null,
+              "overrideSource": null,
+              "rateAmountType": null,
+              "standardAmount": null,
+              "overrideAdjRate": null,
+              "prorationMethod": "ProRataByDays",
+              "standardAdjRate": null,
+              "overrideBaseRate": null,
+              "standardBaseRate": null,
+              "editEffectiveDate": "2025-01-09T08:01Z",
+              "termAmountBilling": null,
+              "numDaysInRatedTerm": 365,
+              "overrideTermAmount": null,
+              "ratingJurisdiction": "CA",
+              "standardTermAmount": null,
+              "subjectToReporting": null,
+              "actualAmountBilling": null,
+              "overrideAmountBilling": null,
+              "standardAmountBilling": null,
+              "overrideTermAmountBilling": null,
+              "standardTermAmountBilling": null
+            },
+            {
+              "id": "entity.APDRiskCoverage:116",
+              "basis": 1,
+              "refId": null,
+              "lineId": "entity.APDRiskPolicyLine:109",
+              "message": null,
+              "raterId": null,
+              "baseRate": 1,
+              "costCode": "premium",
+              "costType": "StdPremium",
+              "required": true,
+              "billGroup": null,
+              "periodEnd": "2026-01-09T08:01Z",
+              "exposureId": null,
+              "termAmount": 1,
+              "chargeGroup": null,
+              "overridable": false,
+              "periodStart": "2025-01-09T08:01Z",
+              "rateRoutine": null,
+              "actualAmount": 1,
+              "adjustedRate": 1,
+              "customFields": {},
+              "roundingMode": "HALF_EVEN",
+              "basisScalable": false,
+              "chargePattern": null,
+              "effectiveDate": "2025-01-09T08:01Z",
+              "roundingLevel": 10,
+              "costEntityType": null,
+              "expirationDate": "2026-01-09T08:01Z",
+              "overrideAmount": null,
+              "overrideReason": null,
+              "overrideSource": null,
+              "rateAmountType": null,
+              "standardAmount": null,
+              "overrideAdjRate": null,
+              "prorationMethod": "ProRataByDays",
+              "standardAdjRate": null,
+              "overrideBaseRate": null,
+              "standardBaseRate": null,
+              "editEffectiveDate": "2025-01-09T08:01Z",
+              "termAmountBilling": null,
+              "numDaysInRatedTerm": 365,
+              "overrideTermAmount": null,
+              "ratingJurisdiction": "CA",
+              "standardTermAmount": null,
+              "subjectToReporting": null,
+              "actualAmountBilling": null,
+              "overrideAmountBilling": null,
+              "standardAmountBilling": null,
+              "overrideTermAmountBilling": null,
+              "standardTermAmountBilling": null
+            }
+          ]
+        }
+      },
+      "callerId": "f4ccffcd-a0a8-492c-9635-633b72f09807",
+      "audiences": [
+        "INTERNAL"
+      ],
+      "selectors": {
+        "jurisdictions": "CA",
+        "transactionDate": "2025-01-09T08:01:00.000Z"
+      },
+      "timestamp": "2025-01-09T18:41:35.088354635Z",
+      "contextMap": null,
+      "componentCode": "SEPARateBook",
+      "componentType": "ratebook",
+      "elapsedTimeNs": 130814047,
+      "componentVersion": "1",
+      "costSummary": {
+        "costs": [
+          {
+            "id": "entity.APDRiskCoverage:118",
+            "basis": 1,
+            "baseRate": 1,
+            "adjustedRate": 1,
+            "termAmount": 1,
+            "actualAmount": 1
+          },
+          {
+            "id": "entity.APDRiskCoverage:117",
+            "basis": 200,
+            "baseRate": 1,
+            "adjustedRate": 1,
+            "termAmount": 200,
+            "actualAmount": 200
+          },
+          {
+            "id": "entity.APDRiskCoverage:115",
+            "basis": 1,
+            "baseRate": 1,
+            "adjustedRate": 1,
+            "termAmount": 1,
+            "actualAmount": 1
+          },
+          {
+            "id": "entity.APDRiskCoverage:116",
+            "basis": 1,
+            "baseRate": 1,
+            "adjustedRate": 1,
+            "termAmount": 1,
+            "actualAmount": 1
+          }
+        ],
+        "actualAmountTotal": 203,
+        "termAmountTotal": 203
+      },
+      "children": [
+        {
+          "id": "67b5d4d5-2033-47a0-b3d1-245d6e8765a4",
+          "type": "SYSTEM",
+          "error": null,
+          "level": "DEBUG",
+          "inputs": {
+            "parameters": {
+              "DEFAULT": {
+                "sliceNumber": 0
+              }
+            }
+          },
+          "groupId": "1736448094906391339",
+          "message": "Executing RATING_VARIABLE SEPAAllCoveragesRatingVariable version 1",
+          "outputs": {
+            "result": {
+              "value": [
+                {
+                  "UALLiability": "entity.APDRiskCoverage:118"
+                },
+                {
+                  "UALMedPay": "entity.APDRiskCoverage:117"
+                },
+                {
+                  "UALUMBI": "entity.APDRiskCoverage:115"
+                },
+                {
+                  "UALUMPD": "entity.APDRiskCoverage:116"
+                }
+              ]
+            }
+          },
+          "callerId": "5d2519b8-1000-4b3e-8303-468ddc52f431",
+          "audiences": [
+            "INTERNAL"
+          ],
+          "selectors": {
+            "jurisdictions": "CA",
+            "transactionDate": "2025-01-09T08:01:00.000Z"
+          },
+          "timestamp": "2025-01-09T18:41:35.088717585Z",
+          "contextMap": null,
+          "componentCode": "SEPAAllCoveragesRatingVariable",
+          "componentType": "ratingvariable",
+          "elapsedTimeNs": 3517684,
+          "componentVersion": "1"
+        },
+        {
+          "id": "32410f7b-1d89-47b3-811a-8032e22069b4",
+          "type": "SYSTEM",
+          "error": null,
+          "level": "DEBUG",
+          "inputs": {
+            "parameters": {
+              "DEFAULT": {
+                "coverage": "UALLiability",
+                "coverageInstanceId": "entity.APDRiskCoverage:118"
+              }
+            }
+          },
+          "groupId": "1736448094906391339",
+          "message": "Executing COST_ROUTINE SEPACostRoutine version 2",
+          "outputs": {
+            "result": {
+              "value": {
+                "id": "entity.APDRiskCoverage:118",
+                "basis": 1,
+                "refId": null,
+                "lineId": "entity.APDRiskPolicyLine:109",
+                "message": null,
+                "raterId": null,
+                "baseRate": 1,
+                "costCode": "premium",
+                "costType": "StdPremium",
+                "required": true,
+                "billGroup": null,
+                "periodEnd": "2026-01-09T08:01Z",
+                "exposureId": null,
+                "termAmount": 1,
+                "chargeGroup": null,
+                "overridable": false,
+                "periodStart": "2025-01-09T08:01Z",
+                "rateRoutine": null,
+                "actualAmount": 1,
+                "adjustedRate": 1,
+                "customFields": {},
+                "roundingMode": "HALF_EVEN",
+                "basisScalable": false,
+                "chargePattern": null,
+                "effectiveDate": "2025-01-09T08:01Z",
+                "roundingLevel": 10,
+                "costEntityType": null,
+                "expirationDate": "2026-01-09T08:01Z",
+                "overrideAmount": null,
+                "overrideReason": null,
+                "overrideSource": null,
+                "rateAmountType": null,
+                "standardAmount": null,
+                "overrideAdjRate": null,
+                "prorationMethod": "ProRataByDays",
+                "standardAdjRate": null,
+                "overrideBaseRate": null,
+                "standardBaseRate": null,
+                "editEffectiveDate": "2025-01-09T08:01Z",
+                "termAmountBilling": null,
+                "numDaysInRatedTerm": 365,
+                "overrideTermAmount": null,
+                "ratingJurisdiction": "CA",
+                "standardTermAmount": null,
+                "subjectToReporting": null,
+                "actualAmountBilling": null,
+                "overrideAmountBilling": null,
+                "standardAmountBilling": null,
+                "overrideTermAmountBilling": null,
+                "standardTermAmountBilling": null
+              }
+            }
+          },
+          "callerId": "5d2519b8-1000-4b3e-8303-468ddc52f431",
+          "audiences": [
+            "INTERNAL"
+          ],
+          "selectors": {
+            "jurisdictions": "CA",
+            "transactionDate": "2025-01-09T08:01:00.000Z"
+          },
+          "timestamp": "2025-01-09T18:41:35.092782802Z",
+          "contextMap": null,
+          "componentCode": "SEPACostRoutine",
+          "componentType": "costroutine",
+          "elapsedTimeNs": 37564687,
+          "componentVersion": "2",
+          "costSummary": {
+            "costs": [
+              {
+                "id": "entity.APDRiskCoverage:118",
+                "basis": 1,
+                "baseRate": 1,
+                "adjustedRate": 1,
+                "termAmount": 1,
+                "actualAmount": 1
+              }
+            ],
+            "actualAmountTotal": 1,
+            "termAmountTotal": 1
+          },
+          "children": [
+            {
+              "id": "3f66a8be-8bf8-435c-bccc-a193beadbcf4",
+              "type": "SYSTEM",
+              "error": null,
+              "level": "DEBUG",
+              "inputs": {},
+              "groupId": "1736448094906391339",
+              "message": "Executing RATING_VARIABLE SEPADriverNoOfViolationsVariable version 1",
+              "outputs": {
+                "result": {
+                  "value": {
+                    "TotalNoOfViolations": 0
+                  }
+                }
+              },
+              "callerId": "32410f7b-1d89-47b3-811a-8032e22069b4",
+              "audiences": [
+                "INTERNAL"
+              ],
+              "selectors": {
+                "jurisdictions": "CA",
+                "transactionDate": "2025-01-09T08:01:00.000Z"
+              },
+              "timestamp": "2025-01-09T18:41:35.093313697Z",
+              "contextMap": null,
+              "componentCode": "SEPADriverNoOfViolationsVariable",
+              "componentType": "ratingvariable",
+              "elapsedTimeNs": 3388382,
+              "componentVersion": "1",
+              "children": [
+                {
+                  "id": "87c8c7d2-671b-42fc-a370-70259bd2fc8d",
+                  "type": "USER",
+                  "error": null,
+                  "level": "INFO",
+                  "inputs": null,
+                  "groupId": "1736448094906391339",
+                  "message": "Aggregating all driver violations",
+                  "outputs": null,
+                  "callerId": "3f66a8be-8bf8-435c-bccc-a193beadbcf4",
+                  "audiences": [
+                    "ALL"
+                  ],
+                  "selectors": null,
+                  "timestamp": "2025-01-09T18:41:35.093405162Z",
+                  "contextMap": {},
+                  "componentCode": null,
+                  "componentType": null,
+                  "elapsedTimeNs": null,
+                  "componentVersion": null
+                },
+                {
+                  "id": "81218e7b-5323-4071-b25e-5f3fe7a6f4dc",
+                  "type": "USER",
+                  "error": null,
+                  "level": "INFO",
+                  "inputs": null,
+                  "groupId": "1736448094906391339",
+                  "message": "Number of Violations:0for DriverId:206",
+                  "outputs": null,
+                  "callerId": "3f66a8be-8bf8-435c-bccc-a193beadbcf4",
+                  "audiences": [
+                    "ALL"
+                  ],
+                  "selectors": null,
+                  "timestamp": "2025-01-09T18:41:35.096657992Z",
+                  "contextMap": {},
+                  "componentCode": null,
+                  "componentType": null,
+                  "elapsedTimeNs": null,
+                  "componentVersion": null
+                }
+              ]
+            },
+            {
+              "id": "ece26eac-24df-44d5-b3d4-e8563703ea1f",
+              "type": "SYSTEM",
+              "error": null,
+              "level": "DEBUG",
+              "inputs": {
+                "parameters": {
+                  "values": [
+                    "UALLiability"
+                  ]
+                }
+              },
+              "groupId": "1736448094906391339",
+              "message": "Executing RATE_TABLE SEPARateTable version 1",
+              "outputs": {
+                "result": {
+                  "basePremium": {
+                    "type": "DECIMAL",
+                    "value": 1
+                  }
+                }
+              },
+              "callerId": "32410f7b-1d89-47b3-811a-8032e22069b4",
+              "audiences": [
+                "INTERNAL"
+              ],
+              "selectors": {
+                "jurisdictions": "CA",
+                "transactionDate": "2025-01-09T08:01:00.000Z"
+              },
+              "timestamp": "2025-01-09T18:41:35.097538766Z",
+              "contextMap": null,
+              "componentCode": "SEPARateTable",
+              "componentType": "ratetable",
+              "elapsedTimeNs": 32552957,
+              "componentVersion": "1"
+            }
+          ]
+        },
+        {
+          "id": "ab5bdf46-e49b-4801-b698-c73b1f76b57c",
+          "type": "SYSTEM",
+          "error": null,
+          "level": "DEBUG",
+          "inputs": {
+            "parameters": {
+              "DEFAULT": {
+                "coverage": "UALMedPay",
+                "coverageInstanceId": "entity.APDRiskCoverage:117"
+              }
+            }
+          },
+          "groupId": "1736448094906391339",
+          "message": "Executing COST_ROUTINE SEPACostRoutine version 2",
+          "outputs": {
+            "result": {
+              "value": {
+                "id": "entity.APDRiskCoverage:117",
+                "basis": 200,
+                "refId": null,
+                "lineId": "entity.APDRiskPolicyLine:109",
+                "message": null,
+                "raterId": null,
+                "baseRate": 1,
+                "costCode": "premium",
+                "costType": "StdPremium",
+                "required": true,
+                "billGroup": null,
+                "periodEnd": "2026-01-09T08:01Z",
+                "exposureId": null,
+                "termAmount": 200,
+                "chargeGroup": null,
+                "overridable": false,
+                "periodStart": "2025-01-09T08:01Z",
+                "rateRoutine": null,
+                "actualAmount": 200,
+                "adjustedRate": 1,
+                "customFields": {},
+                "roundingMode": "HALF_EVEN",
+                "basisScalable": false,
+                "chargePattern": null,
+                "effectiveDate": "2025-01-09T08:01Z",
+                "roundingLevel": 10,
+                "costEntityType": null,
+                "expirationDate": "2026-01-09T08:01Z",
+                "overrideAmount": null,
+                "overrideReason": null,
+                "overrideSource": null,
+                "rateAmountType": null,
+                "standardAmount": null,
+                "overrideAdjRate": null,
+                "prorationMethod": "ProRataByDays",
+                "standardAdjRate": null,
+                "overrideBaseRate": null,
+                "standardBaseRate": null,
+                "editEffectiveDate": "2025-01-09T08:01Z",
+                "termAmountBilling": null,
+                "numDaysInRatedTerm": 365,
+                "overrideTermAmount": null,
+                "ratingJurisdiction": "CA",
+                "standardTermAmount": null,
+                "subjectToReporting": null,
+                "actualAmountBilling": null,
+                "overrideAmountBilling": null,
+                "standardAmountBilling": null,
+                "overrideTermAmountBilling": null,
+                "standardTermAmountBilling": null
+              }
+            }
+          },
+          "callerId": "5d2519b8-1000-4b3e-8303-468ddc52f431",
+          "audiences": [
+            "INTERNAL"
+          ],
+          "selectors": {
+            "jurisdictions": "CA",
+            "transactionDate": "2025-01-09T08:01:00.000Z"
+          },
+          "timestamp": "2025-01-09T18:41:35.1310302Z",
+          "contextMap": null,
+          "componentCode": "SEPACostRoutine",
+          "componentType": "costroutine",
+          "elapsedTimeNs": 29834040,
+          "componentVersion": "2",
+          "costSummary": {
+            "costs": [
+              {
+                "id": "entity.APDRiskCoverage:117",
+                "basis": 200,
+                "baseRate": 1,
+                "adjustedRate": 1,
+                "termAmount": 200,
+                "actualAmount": 200
+              }
+            ],
+            "actualAmountTotal": 200,
+            "termAmountTotal": 200
+          },
+          "children": [
+            {
+              "id": "473b5278-b76a-4736-94af-7d4773c3ba26",
+              "type": "SYSTEM",
+              "error": null,
+              "level": "DEBUG",
+              "inputs": {},
+              "groupId": "1736448094906391339",
+              "message": "Executing RATING_VARIABLE SEPADriverNoOfViolationsVariable version 1",
+              "outputs": {
+                "result": {
+                  "value": {
+                    "TotalNoOfViolations": 0
+                  }
+                }
+              },
+              "callerId": "ab5bdf46-e49b-4801-b698-c73b1f76b57c",
+              "audiences": [
+                "INTERNAL"
+              ],
+              "selectors": {
+                "jurisdictions": "CA",
+                "transactionDate": "2025-01-09T08:01:00.000Z"
+              },
+              "timestamp": "2025-01-09T18:41:35.131431534Z",
+              "contextMap": null,
+              "componentCode": "SEPADriverNoOfViolationsVariable",
+              "componentType": "ratingvariable",
+              "elapsedTimeNs": 363625,
+              "componentVersion": "1",
+              "children": [
+                {
+                  "id": "2794cc02-9cf6-402e-8509-35d2efdb88f0",
+                  "type": "USER",
+                  "error": null,
+                  "level": "INFO",
+                  "inputs": null,
+                  "groupId": "1736448094906391339",
+                  "message": "Aggregating all driver violations",
+                  "outputs": null,
+                  "callerId": "473b5278-b76a-4736-94af-7d4773c3ba26",
+                  "audiences": [
+                    "ALL"
+                  ],
+                  "selectors": null,
+                  "timestamp": "2025-01-09T18:41:35.131499011Z",
+                  "contextMap": {},
+                  "componentCode": null,
+                  "componentType": null,
+                  "elapsedTimeNs": null,
+                  "componentVersion": null
+                },
+                {
+                  "id": "71fede60-7de5-4f95-8573-617501b3b8be",
+                  "type": "USER",
+                  "error": null,
+                  "level": "INFO",
+                  "inputs": null,
+                  "groupId": "1736448094906391339",
+                  "message": "Number of Violations:0for DriverId:206",
+                  "outputs": null,
+                  "callerId": "473b5278-b76a-4736-94af-7d4773c3ba26",
+                  "audiences": [
+                    "ALL"
+                  ],
+                  "selectors": null,
+                  "timestamp": "2025-01-09T18:41:35.13177019Z",
+                  "contextMap": {},
+                  "componentCode": null,
+                  "componentType": null,
+                  "elapsedTimeNs": null,
+                  "componentVersion": null
+                }
+              ]
+            },
+            {
+              "id": "6cd4e868-42d7-4885-acc4-a8ad93c4724e",
+              "type": "SYSTEM",
+              "error": null,
+              "level": "DEBUG",
+              "inputs": {
+                "parameters": {
+                  "values": [
+                    "UALMedPay"
+                  ]
+                }
+              },
+              "groupId": "1736448094906391339",
+              "message": "Executing RATE_TABLE SEPARateTable version 1",
+              "outputs": {
+                "result": {
+                  "basePremium": {
+                    "type": "DECIMAL",
+                    "value": 200
+                  }
+                }
+              },
+              "callerId": "ab5bdf46-e49b-4801-b698-c73b1f76b57c",
+              "audiences": [
+                "INTERNAL"
+              ],
+              "selectors": {
+                "jurisdictions": "CA",
+                "transactionDate": "2025-01-09T08:01:00.000Z"
+              },
+              "timestamp": "2025-01-09T18:41:35.132113655Z",
+              "contextMap": null,
+              "componentCode": "SEPARateTable",
+              "componentType": "ratetable",
+              "elapsedTimeNs": 28608935,
+              "componentVersion": "1"
+            }
+          ]
+        },
+        {
+          "id": "6b13553e-63b7-4501-b182-6ce2269a7c4e",
+          "type": "SYSTEM",
+          "error": null,
+          "level": "DEBUG",
+          "inputs": {
+            "parameters": {
+              "DEFAULT": {
+                "coverage": "UALUMBI",
+                "coverageInstanceId": "entity.APDRiskCoverage:115"
+              }
+            }
+          },
+          "groupId": "1736448094906391339",
+          "message": "Executing COST_ROUTINE SEPACostRoutine version 2",
+          "outputs": {
+            "result": {
+              "value": {
+                "id": "entity.APDRiskCoverage:115",
+                "basis": 1,
+                "refId": null,
+                "lineId": "entity.APDRiskPolicyLine:109",
+                "message": null,
+                "raterId": null,
+                "baseRate": 1,
+                "costCode": "premium",
+                "costType": "StdPremium",
+                "required": true,
+                "billGroup": null,
+                "periodEnd": "2026-01-09T08:01Z",
+                "exposureId": null,
+                "termAmount": 1,
+                "chargeGroup": null,
+                "overridable": false,
+                "periodStart": "2025-01-09T08:01Z",
+                "rateRoutine": null,
+                "actualAmount": 1,
+                "adjustedRate": 1,
+                "customFields": {},
+                "roundingMode": "HALF_EVEN",
+                "basisScalable": false,
+                "chargePattern": null,
+                "effectiveDate": "2025-01-09T08:01Z",
+                "roundingLevel": 10,
+                "costEntityType": null,
+                "expirationDate": "2026-01-09T08:01Z",
+                "overrideAmount": null,
+                "overrideReason": null,
+                "overrideSource": null,
+                "rateAmountType": null,
+                "standardAmount": null,
+                "overrideAdjRate": null,
+                "prorationMethod": "ProRataByDays",
+                "standardAdjRate": null,
+                "overrideBaseRate": null,
+                "standardBaseRate": null,
+                "editEffectiveDate": "2025-01-09T08:01Z",
+                "termAmountBilling": null,
+                "numDaysInRatedTerm": 365,
+                "overrideTermAmount": null,
+                "ratingJurisdiction": "CA",
+                "standardTermAmount": null,
+                "subjectToReporting": null,
+                "actualAmountBilling": null,
+                "overrideAmountBilling": null,
+                "standardAmountBilling": null,
+                "overrideTermAmountBilling": null,
+                "standardTermAmountBilling": null
+              }
+            }
+          },
+          "callerId": "5d2519b8-1000-4b3e-8303-468ddc52f431",
+          "audiences": [
+            "INTERNAL"
+          ],
+          "selectors": {
+            "jurisdictions": "CA",
+            "transactionDate": "2025-01-09T08:01:00.000Z"
+          },
+          "timestamp": "2025-01-09T18:41:35.16095265Z",
+          "contextMap": null,
+          "componentCode": "SEPACostRoutine",
+          "componentType": "costroutine",
+          "elapsedTimeNs": 27736423,
+          "componentVersion": "2",
+          "costSummary": {
+            "costs": [
+              {
+                "id": "entity.APDRiskCoverage:115",
+                "basis": 1,
+                "baseRate": 1,
+                "adjustedRate": 1,
+                "termAmount": 1,
+                "actualAmount": 1
+              }
+            ],
+            "actualAmountTotal": 1,
+            "termAmountTotal": 1
+          },
+          "children": [
+            {
+              "id": "2a2e89b3-33e6-426e-a56c-cc2a18cad5e7",
+              "type": "SYSTEM",
+              "error": null,
+              "level": "DEBUG",
+              "inputs": {},
+              "groupId": "1736448094906391339",
+              "message": "Executing RATING_VARIABLE SEPADriverNoOfViolationsVariable version 1",
+              "outputs": {
+                "result": {
+                  "value": {
+                    "TotalNoOfViolations": 0
+                  }
+                }
+              },
+              "callerId": "6b13553e-63b7-4501-b182-6ce2269a7c4e",
+              "audiences": [
+                "INTERNAL"
+              ],
+              "selectors": {
+                "jurisdictions": "CA",
+                "transactionDate": "2025-01-09T08:01:00.000Z"
+              },
+              "timestamp": "2025-01-09T18:41:35.16119901Z",
+              "contextMap": null,
+              "componentCode": "SEPADriverNoOfViolationsVariable",
+              "componentType": "ratingvariable",
+              "elapsedTimeNs": 287929,
+              "componentVersion": "1",
+              "children": [
+                {
+                  "id": "45253e69-8d08-436b-af16-471fdeff3e14",
+                  "type": "USER",
+                  "error": null,
+                  "level": "INFO",
+                  "inputs": null,
+                  "groupId": "1736448094906391339",
+                  "message": "Aggregating all driver violations",
+                  "outputs": null,
+                  "callerId": "2a2e89b3-33e6-426e-a56c-cc2a18cad5e7",
+                  "audiences": [
+                    "ALL"
+                  ],
+                  "selectors": null,
+                  "timestamp": "2025-01-09T18:41:35.161257001Z",
+                  "contextMap": {},
+                  "componentCode": null,
+                  "componentType": null,
+                  "elapsedTimeNs": null,
+                  "componentVersion": null
+                },
+                {
+                  "id": "b590b17d-38f5-438c-bda5-01089066b82f",
+                  "type": "USER",
+                  "error": null,
+                  "level": "INFO",
+                  "inputs": null,
+                  "groupId": "1736448094906391339",
+                  "message": "Number of Violations:0for DriverId:206",
+                  "outputs": null,
+                  "callerId": "2a2e89b3-33e6-426e-a56c-cc2a18cad5e7",
+                  "audiences": [
+                    "ALL"
+                  ],
+                  "selectors": null,
+                  "timestamp": "2025-01-09T18:41:35.161462565Z",
+                  "contextMap": {},
+                  "componentCode": null,
+                  "componentType": null,
+                  "elapsedTimeNs": null,
+                  "componentVersion": null
+                }
+              ]
+            },
+            {
+              "id": "9005eee9-ed20-4997-b779-7dd70131c71c",
+              "type": "SYSTEM",
+              "error": null,
+              "level": "DEBUG",
+              "inputs": {
+                "parameters": {
+                  "values": [
+                    "UALUMBI"
+                  ]
+                }
+              },
+              "groupId": "1736448094906391339",
+              "message": "Executing RATE_TABLE SEPARateTable version 1",
+              "outputs": {
+                "result": {
+                  "basePremium": {
+                    "type": "DECIMAL",
+                    "value": 1
+                  }
+                }
+              },
+              "callerId": "6b13553e-63b7-4501-b182-6ce2269a7c4e",
+              "audiences": [
+                "INTERNAL"
+              ],
+              "selectors": {
+                "jurisdictions": "CA",
+                "transactionDate": "2025-01-09T08:01:00.000Z"
+              },
+              "timestamp": "2025-01-09T18:41:35.161608001Z",
+              "contextMap": null,
+              "componentCode": "SEPARateTable",
+              "componentType": "ratetable",
+              "elapsedTimeNs": 26953757,
+              "componentVersion": "1"
+            }
+          ]
+        },
+        {
+          "id": "30a1cfe7-b464-4df5-afb0-b4e4e2068791",
+          "type": "SYSTEM",
+          "error": null,
+          "level": "DEBUG",
+          "inputs": {
+            "parameters": {
+              "DEFAULT": {
+                "coverage": "UALUMPD",
+                "coverageInstanceId": "entity.APDRiskCoverage:116"
+              }
+            }
+          },
+          "groupId": "1736448094906391339",
+          "message": "Executing COST_ROUTINE SEPACostRoutine version 2",
+          "outputs": {
+            "result": {
+              "value": {
+                "id": "entity.APDRiskCoverage:116",
+                "basis": 1,
+                "refId": null,
+                "lineId": "entity.APDRiskPolicyLine:109",
+                "message": null,
+                "raterId": null,
+                "baseRate": 1,
+                "costCode": "premium",
+                "costType": "StdPremium",
+                "required": true,
+                "billGroup": null,
+                "periodEnd": "2026-01-09T08:01Z",
+                "exposureId": null,
+                "termAmount": 1,
+                "chargeGroup": null,
+                "overridable": false,
+                "periodStart": "2025-01-09T08:01Z",
+                "rateRoutine": null,
+                "actualAmount": 1,
+                "adjustedRate": 1,
+                "customFields": {},
+                "roundingMode": "HALF_EVEN",
+                "basisScalable": false,
+                "chargePattern": null,
+                "effectiveDate": "2025-01-09T08:01Z",
+                "roundingLevel": 10,
+                "costEntityType": null,
+                "expirationDate": "2026-01-09T08:01Z",
+                "overrideAmount": null,
+                "overrideReason": null,
+                "overrideSource": null,
+                "rateAmountType": null,
+                "standardAmount": null,
+                "overrideAdjRate": null,
+                "prorationMethod": "ProRataByDays",
+                "standardAdjRate": null,
+                "overrideBaseRate": null,
+                "standardBaseRate": null,
+                "editEffectiveDate": "2025-01-09T08:01Z",
+                "termAmountBilling": null,
+                "numDaysInRatedTerm": 365,
+                "overrideTermAmount": null,
+                "ratingJurisdiction": "CA",
+                "standardTermAmount": null,
+                "subjectToReporting": null,
+                "actualAmountBilling": null,
+                "overrideAmountBilling": null,
+                "standardAmountBilling": null,
+                "overrideTermAmountBilling": null,
+                "standardTermAmountBilling": null
+              }
+            }
+          },
+          "callerId": "5d2519b8-1000-4b3e-8303-468ddc52f431",
+          "audiences": [
+            "INTERNAL"
+          ],
+          "selectors": {
+            "jurisdictions": "CA",
+            "transactionDate": "2025-01-09T08:01:00.000Z"
+          },
+          "timestamp": "2025-01-09T18:41:35.188792832Z",
+          "contextMap": null,
+          "componentCode": "SEPACostRoutine",
+          "componentType": "costroutine",
+          "elapsedTimeNs": 30243496,
+          "componentVersion": "2",
+          "costSummary": {
+            "costs": [
+              {
+                "id": "entity.APDRiskCoverage:116",
+                "basis": 1,
+                "baseRate": 1,
+                "adjustedRate": 1,
+                "termAmount": 1,
+                "actualAmount": 1
+              }
+            ],
+            "actualAmountTotal": 1,
+            "termAmountTotal": 1
+          },
+          "children": [
+            {
+              "id": "b1b9dc65-9117-496a-bd8a-9d597bdc5941",
+              "type": "SYSTEM",
+              "error": null,
+              "level": "DEBUG",
+              "inputs": {},
+              "groupId": "1736448094906391339",
+              "message": "Executing RATING_VARIABLE SEPADriverNoOfViolationsVariable version 1",
+              "outputs": {
+                "result": {
+                  "value": {
+                    "TotalNoOfViolations": 0
+                  }
+                }
+              },
+              "callerId": "30a1cfe7-b464-4df5-afb0-b4e4e2068791",
+              "audiences": [
+                "INTERNAL"
+              ],
+              "selectors": {
+                "jurisdictions": "CA",
+                "transactionDate": "2025-01-09T08:01:00.000Z"
+              },
+              "timestamp": "2025-01-09T18:41:35.18901177Z",
+              "contextMap": null,
+              "componentCode": "SEPADriverNoOfViolationsVariable",
+              "componentType": "ratingvariable",
+              "elapsedTimeNs": 255697,
+              "componentVersion": "1",
+              "children": [
+                {
+                  "id": "b61d0614-93a3-4f37-bc6a-6fb7169297ae",
+                  "type": "USER",
+                  "error": null,
+                  "level": "INFO",
+                  "inputs": null,
+                  "groupId": "1736448094906391339",
+                  "message": "Aggregating all driver violations",
+                  "outputs": null,
+                  "callerId": "b1b9dc65-9117-496a-bd8a-9d597bdc5941",
+                  "audiences": [
+                    "ALL"
+                  ],
+                  "selectors": null,
+                  "timestamp": "2025-01-09T18:41:35.189062698Z",
+                  "contextMap": {},
+                  "componentCode": null,
+                  "componentType": null,
+                  "elapsedTimeNs": null,
+                  "componentVersion": null
+                },
+                {
+                  "id": "79202c72-f8b3-4f18-9dc5-de5f04091642",
+                  "type": "USER",
+                  "error": null,
+                  "level": "INFO",
+                  "inputs": null,
+                  "groupId": "1736448094906391339",
+                  "message": "Number of Violations:0for DriverId:206",
+                  "outputs": null,
+                  "callerId": "b1b9dc65-9117-496a-bd8a-9d597bdc5941",
+                  "audiences": [
+                    "ALL"
+                  ],
+                  "selectors": null,
+                  "timestamp": "2025-01-09T18:41:35.189254949Z",
+                  "contextMap": {},
+                  "componentCode": null,
+                  "componentType": null,
+                  "elapsedTimeNs": null,
+                  "componentVersion": null
+                }
+              ]
+            },
+            {
+              "id": "f38e73d6-c9ac-461c-9d15-9b45534aa8fc",
+              "type": "SYSTEM",
+              "error": null,
+              "level": "DEBUG",
+              "inputs": {
+                "parameters": {
+                  "values": [
+                    "UALUMPD"
+                  ]
+                }
+              },
+              "groupId": "1736448094906391339",
+              "message": "Executing RATE_TABLE SEPARateTable version 1",
+              "outputs": {
+                "result": {
+                  "basePremium": {
+                    "type": "DECIMAL",
+                    "value": 1
+                  }
+                }
+              },
+              "callerId": "30a1cfe7-b464-4df5-afb0-b4e4e2068791",
+              "audiences": [
+                "INTERNAL"
+              ],
+              "selectors": {
+                "jurisdictions": "CA",
+                "transactionDate": "2025-01-09T08:01:00.000Z"
+              },
+              "timestamp": "2025-01-09T18:41:35.189395465Z",
+              "contextMap": null,
+              "componentCode": "SEPARateTable",
+              "componentType": "ratetable",
+              "elapsedTimeNs": 29461239,
+              "componentVersion": "1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

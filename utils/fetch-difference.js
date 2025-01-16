@@ -19,14 +19,14 @@ const fetchDifference = async() => {
   console.log("This is the assistant object: ", myAssistant, "\n");
 
   // Step 1: Upload a File with an "assistants" purpose
-  let usersPath = path.join(process.cwd(), 'request_0000014524.json');
+  let usersPath = path.join(process.cwd(), 'submission.json');
   const myFile = await openai.files.create({
     file: fs.createReadStream(usersPath),
     purpose: "assistants",
   });
   console.log("This is the file object: ", myFile, "\n");
 
-  usersPath = path.join(process.cwd(), 'request_0000014524 copy.json');
+  usersPath = path.join(process.cwd(), 'renewal.json');
   const myFile2 = await openai.files.create({
     file: fs.createReadStream(usersPath),
     purpose: "assistants",
