@@ -42,7 +42,7 @@ const fetchDifference = async() => {
     myThread.id,
     {
       role: "user",
-      content: "Compare Driver's Name, Voilation Number, Accident Number, Number of Claims between submission quote and renewal quotes.",
+      content: "Compare Driver's Name, Voilation Number between submission quote and renewal quotes.",
       attachments: [
         {"file_id": myFile.id, "tools": [{"type": "file_search"}]},
        {"file_id": myFile2.id, "tools": [{"type": "file_search"}]}
