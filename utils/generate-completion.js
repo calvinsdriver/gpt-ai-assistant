@@ -33,16 +33,22 @@ const generateCompletion = async ({
 }) => {
   if (config.APP_ENV !== 'production') return new Completion({ text: MOCK_TEXT_OK });
   console.log(`Prompt Message: ${prompt.messages}`);
-  let usersPath = path.join(process.cwd(), 'test.json');
+  const usersPath = path.join(process.cwd(), 'test.json');
   const context = fs.readFileSync(usersPath, 'utf8');
   console.log(`context: ${context}`);
-  const { data } = await createChatCompletion({ messages: [
-    {role: "system", content: `${context}`},
-    {role: "user", content: prompt.messages},
-  ],
-    });
+  // Find and update the price of a product with id 2
+const updatedMessages = prompt.messages.map(m => {
+  if (m.role === 'system') {
+    return { ...m, content: context }; // Create a new object with updated price
+  } else {
+    return m; // Return the product as is
+  }
+});
+
+console.log(updatedMessages);
+  const { data } = await createChatCompletion({ messages: updatedMessages});
   const [choice] = data.choices;
-  let answer = choice.message.content.trim();
+  const answer = choice.message.content.trim();
   // console.log(`Generated completion: ${answer}`);
   // if (answer === 'Please upload your renewal policy quote and your current policy quote.') {
   //   console.log('Fetching difference');
