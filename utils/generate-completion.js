@@ -37,13 +37,12 @@ const generateCompletion = async ({
   const context = fs.readFileSync(usersPath, 'utf8');
   console.log(`context: ${context}`);
   // Find and update the price of a product with id 2
-const updatedMessages = prompt.messages.map(m => {
-  if (m.role === 'system') {
-    return { ...m, content: context }; // Create a new object with updated price
-  } else {
-    return m; // Return the product as is
-  }
-});
+  const hasSystemMessage = prompt.messages.some(m => m.role === "system");
+
+  const updatedMessages = hasSystemMessage
+    ? prompt.messages.map(m => (m.role === "system" ? { ...m, content: context } : m))
+    : [{ role: "system", content: context }, ...prompt.messages]; // Insert system message if missing
+  
 
 console.log(updatedMessages);
   const { data } = await createChatCompletion({ messages: updatedMessages});
