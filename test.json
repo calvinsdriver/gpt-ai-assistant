@@ -1,0 +1,301 @@
+{
+    "count": 7,
+    "data": [
+        {
+            "attributes": {
+                "amount": {
+                    "amount": "509.00",
+                    "currency": "brl"
+                },
+                "chargePattern": {
+                    "code": "Premium",
+                    "name": "Premium"
+                },
+                "coverable": {
+                    "displayName": "2015 Mitsubishi ASX 2.0 16V 160cv Mec. in São Paulo (OVS5C80/BR_SP)",
+                    "id": "2401",
+                    "type": "PersonalVehicle",
+                    "uri": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/lines/PersonalAutoLine/vehicles/2401"
+                },
+                "coverage": {
+                    "displayName": "Collision",
+                    "id": "PACollisionCov",
+                    "type": "PersonalVehicleCoverage",
+                    "uri": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/lines/PersonalAutoLine/vehicles/2401/coverages/PACollisionCov"
+                },
+                "effectiveDate": "2025-01-28T08:01:00.000Z",
+                "expirationDate": "2026-01-28T08:01:00.000Z",
+                "id": "2801",
+                "policyLine": {
+                    "displayName": "Personal Auto Line",
+                    "id": "PersonalAutoLine",
+                    "type": "PersonalAutoLine",
+                    "uri": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/lines/PersonalAutoLine"
+                },
+                "rateAmountType": {
+                    "code": "StdPremium",
+                    "name": "Standard premium"
+                },
+                "termAmount": {
+                    "amount": "252.00",
+                    "currency": "brl"
+                }
+            },
+            "checksum": "fe6067ed08249a1bc1b3ed6878bc9fcc"
+        },
+        {
+            "attributes": {
+                "amount": {
+                    "amount": "311.00",
+                    "currency": "brl"
+                },
+                "chargePattern": {
+                    "code": "Premium",
+                    "name": "Premium"
+                },
+                "coverable": {
+                    "displayName": "2015 Mitsubishi ASX 2.0 16V 160cv Mec. in São Paulo (OVS5C80/BR_SP)",
+                    "id": "2401",
+                    "type": "PersonalVehicle",
+                    "uri": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/lines/PersonalAutoLine/vehicles/2401"
+                },
+                "coverage": {
+                    "displayName": "Comprehensive",
+                    "id": "PAComprehensiveCov",
+                    "type": "PersonalVehicleCoverage",
+                    "uri": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/lines/PersonalAutoLine/vehicles/2401/coverages/PAComprehensiveCov"
+                },
+                "effectiveDate": "2025-01-28T08:01:00.000Z",
+                "expirationDate": "2026-01-28T08:01:00.000Z",
+                "id": "2806",
+                "policyLine": {
+                    "displayName": "Personal Auto Line",
+                    "id": "PersonalAutoLine",
+                    "type": "PersonalAutoLine",
+                    "uri": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/lines/PersonalAutoLine"
+                },
+                "rateAmountType": {
+                    "code": "StdPremium",
+                    "name": "Standard premium"
+                },
+                "termAmount": {
+                    "amount": "154.00",
+                    "currency": "brl"
+                }
+            },
+            "checksum": "4b6cc6da933b2e4bfb0ad7c1c9d63703"
+        },
+        {
+            "attributes": {
+                "amount": {
+                    "amount": "188.00",
+                    "currency": "brl"
+                },
+                "chargePattern": {
+                    "code": "Premium",
+                    "name": "Premium"
+                },
+                "coverable": {
+                    "displayName": "Personal Auto Line",
+                    "id": "PersonalAutoLine",
+                    "type": "PersonalAutoLine",
+                    "uri": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/lines/PersonalAutoLine"
+                },
+                "coverage": {
+                    "displayName": "Liability - Bodily Injury and Property Damage",
+                    "id": "PALiabilityCov",
+                    "type": "PersonalAutoLineCoverage",
+                    "uri": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/lines/PersonalAutoLine/coverages/PALiabilityCov"
+                },
+                "effectiveDate": "2025-01-28T08:01:00.000Z",
+                "expirationDate": "2026-01-28T08:01:00.000Z",
+                "id": "2804",
+                "policyLine": {
+                    "displayName": "Personal Auto Line",
+                    "id": "PersonalAutoLine",
+                    "type": "PersonalAutoLine",
+                    "uri": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/lines/PersonalAutoLine"
+                },
+                "rateAmountType": {
+                    "code": "StdPremium",
+                    "name": "Standard premium"
+                },
+                "termAmount": {
+                    "amount": "93.00",
+                    "currency": "brl"
+                }
+            },
+            "checksum": "14f1b8a8f01b8db214f00c93c9cb18a2"
+        },
+        {
+            "attributes": {
+                "amount": {
+                    "amount": "15.00",
+                    "currency": "brl"
+                },
+                "chargePattern": {
+                    "code": "Premium",
+                    "name": "Premium"
+                },
+                "coverable": {
+                    "displayName": "Personal Auto Line",
+                    "id": "PersonalAutoLine",
+                    "type": "PersonalAutoLine",
+                    "uri": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/lines/PersonalAutoLine"
+                },
+                "coverage": {
+                    "displayName": "Mexico Coverage - Limited",
+                    "id": "PALimitedMexicoCov",
+                    "type": "PersonalAutoLineCoverage",
+                    "uri": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/lines/PersonalAutoLine/coverages/PALimitedMexicoCov"
+                },
+                "effectiveDate": "2025-01-28T08:01:00.000Z",
+                "expirationDate": "2026-01-28T08:01:00.000Z",
+                "id": "2805",
+                "policyLine": {
+                    "displayName": "Personal Auto Line",
+                    "id": "PersonalAutoLine",
+                    "type": "PersonalAutoLine",
+                    "uri": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/lines/PersonalAutoLine"
+                },
+                "rateAmountType": {
+                    "code": "StdPremium",
+                    "name": "Standard premium"
+                },
+                "termAmount": {
+                    "amount": "15.00",
+                    "currency": "brl"
+                }
+            },
+            "checksum": "eb28fea75370496d0a38383f2b01d94d"
+        },
+        {
+            "attributes": {
+                "amount": {
+                    "amount": "0.00",
+                    "currency": "brl"
+                },
+                "chargePattern": {
+                    "code": "Premium",
+                    "name": "Premium"
+                },
+                "coverable": {
+                    "displayName": "Personal Auto Line",
+                    "id": "PersonalAutoLine",
+                    "type": "PersonalAutoLine",
+                    "uri": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/lines/PersonalAutoLine"
+                },
+                "coverage": {
+                    "displayName": "Medical Payments",
+                    "id": "PAMedPayCov",
+                    "type": "PersonalAutoLineCoverage",
+                    "uri": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/lines/PersonalAutoLine/coverages/PAMedPayCov"
+                },
+                "effectiveDate": "2025-01-28T08:01:00.000Z",
+                "expirationDate": "2026-01-28T08:01:00.000Z",
+                "id": "2803",
+                "policyLine": {
+                    "displayName": "Personal Auto Line",
+                    "id": "PersonalAutoLine",
+                    "type": "PersonalAutoLine",
+                    "uri": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/lines/PersonalAutoLine"
+                },
+                "rateAmountType": {
+                    "code": "StdPremium",
+                    "name": "Standard premium"
+                },
+                "termAmount": {
+                    "amount": "0.00",
+                    "currency": "brl"
+                }
+            },
+            "checksum": "ce01832cf6dc516eb50b7f1877b86d8a"
+        },
+        {
+            "attributes": {
+                "amount": {
+                    "amount": "109.00",
+                    "currency": "brl"
+                },
+                "chargePattern": {
+                    "code": "Premium",
+                    "name": "Premium"
+                },
+                "coverable": {
+                    "displayName": "2015 Mitsubishi ASX 2.0 16V 160cv Mec. in São Paulo (OVS5C80/BR_SP)",
+                    "id": "2401",
+                    "type": "PersonalVehicle",
+                    "uri": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/lines/PersonalAutoLine/vehicles/2401"
+                },
+                "coverage": {
+                    "displayName": "Rental Reimbursement",
+                    "id": "PARentalCov",
+                    "type": "PersonalVehicleCoverage",
+                    "uri": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/lines/PersonalAutoLine/vehicles/2401/coverages/PARentalCov"
+                },
+                "effectiveDate": "2025-01-28T08:01:00.000Z",
+                "expirationDate": "2026-01-28T08:01:00.000Z",
+                "id": "2802",
+                "policyLine": {
+                    "displayName": "Personal Auto Line",
+                    "id": "PersonalAutoLine",
+                    "type": "PersonalAutoLine",
+                    "uri": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/lines/PersonalAutoLine"
+                },
+                "rateAmountType": {
+                    "code": "StdPremium",
+                    "name": "Standard premium"
+                },
+                "termAmount": {
+                    "amount": "54.00",
+                    "currency": "brl"
+                }
+            },
+            "checksum": "a7ad3bbde4cb58e497d8c7ee76513a0e"
+        },
+        {
+            "attributes": {
+                "amount": {
+                    "amount": "62.00",
+                    "currency": "brl"
+                },
+                "chargePattern": {
+                    "code": "Taxes",
+                    "name": "Taxes"
+                },
+                "effectiveDate": "2025-01-28T08:01:00.000Z",
+                "expirationDate": "2026-01-28T08:01:00.000Z",
+                "id": "2807",
+                "policyLine": {
+                    "displayName": "Personal Auto Line",
+                    "id": "PersonalAutoLine",
+                    "type": "PersonalAutoLine",
+                    "uri": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/lines/PersonalAutoLine"
+                },
+                "rateAmountType": {
+                    "code": "TaxSurcharge",
+                    "name": "Tax or surcharge"
+                },
+                "termAmount": {
+                    "amount": "62.00",
+                    "currency": "brl"
+                }
+            },
+            "checksum": "69dde858e80b09f571ad555c6a141719"
+        }
+    ],
+    "links": {
+        "first": {
+            "href": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/costs",
+            "methods": [
+                "get"
+            ]
+        },
+        "self": {
+            "href": "/job/v1/jobs/pc:SP9TwmjAu5InKnapEY9o3/costs",
+            "methods": [
+                "get"
+            ]
+        }
+    }
+}
